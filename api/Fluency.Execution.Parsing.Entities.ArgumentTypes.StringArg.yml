@@ -19,7 +19,7 @@ items:
   source:
     id: StringArg
     path: ''
-    startLine: 3185
+    startLine: 3188
   assemblies:
   - cs.temp.dll
   namespace: Fluency.Execution.Parsing.Entities.ArgumentTypes
@@ -62,7 +62,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 3191
+    startLine: 3194
   assemblies:
   - cs.temp.dll
   namespace: Fluency.Execution.Parsing.Entities.ArgumentTypes
@@ -99,7 +99,7 @@ items:
   source:
     id: TryParseArg
     path: ''
-    startLine: 3205
+    startLine: 3208
   assemblies:
   - cs.temp.dll
   namespace: Fluency.Execution.Parsing.Entities.ArgumentTypes
@@ -136,7 +136,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 3218
+    startLine: 3221
   assemblies:
   - cs.temp.dll
   namespace: Fluency.Execution.Parsing.Entities.ArgumentTypes
@@ -170,7 +170,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 3227
+    startLine: 3230
   assemblies:
   - cs.temp.dll
   namespace: Fluency.Execution.Parsing.Entities.ArgumentTypes
