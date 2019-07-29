@@ -1,0 +1,1210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.ParseExtensions
+  commentId: T:Fluency.Execution.Parsing.ParseExtensions
+  id: ParseExtensions
+  parent: Fluency.Execution.Parsing
+  children:
+  - Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  - Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  - Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+  - Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+  - Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{Argument})
+  - Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{System.Char})
+  langs:
+  - csharp
+  - vb
+  name: ParseExtensions
+  nameWithType: ParseExtensions
+  fullName: Fluency.Execution.Parsing.ParseExtensions
+  type: Class
+  source:
+    id: ParseExtensions
+    path: ''
+    startLine: 1893
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nA collection of extension methods to help with parsing.\n"
+  example: []
+  syntax:
+    content: public static class ParseExtensions
+    content.vb: Public Module ParseExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{System.Char})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{System.Char})
+  id: Stringify(IEnumerable{System.Char})
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: Stringify(IEnumerable<Char>)
+  nameWithType: ParseExtensions.Stringify(IEnumerable<Char>)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable<System.Char>)
+  type: Method
+  source:
+    id: Stringify
+    path: ''
+    startLine: 1900
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nTurn an IEnumerable of chars into a string.\n"
+  example: []
+  syntax:
+    content: public static string Stringify(this IEnumerable<char> source)
+    parameters:
+    - id: source
+      type: IEnumerable{System.Char}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Stringify(source As IEnumerable(Of Char)) As String
+  overload: Fluency.Execution.Parsing.ParseExtensions.Stringify*
+  nameWithType.vb: ParseExtensions.Stringify(IEnumerable(Of Char))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable(Of System.Char))
+  name.vb: Stringify(IEnumerable(Of Char))
+- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{Argument})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{Argument})
+  id: Stringify(IEnumerable{Argument})
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: Stringify(IEnumerable<Argument>)
+  nameWithType: ParseExtensions.Stringify(IEnumerable<Argument>)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable<Argument>)
+  type: Method
+  source:
+    id: Stringify
+    path: ''
+    startLine: 1907
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nPrettyprint an array of Arguments, with a comma and space between each one.\n"
+  example: []
+  syntax:
+    content: public static string Stringify(this IEnumerable<Argument> source)
+    parameters:
+    - id: source
+      type: IEnumerable{Argument}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Stringify(source As IEnumerable(Of Argument)) As String
+  overload: Fluency.Execution.Parsing.ParseExtensions.Stringify*
+  nameWithType.vb: ParseExtensions.Stringify(IEnumerable(Of Argument))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable(Of Argument))
+  name.vb: Stringify(IEnumerable(Of Argument))
+- uid: Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+  id: SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, Boolean>)
+  nameWithType: ParseExtensions.SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, Boolean>)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, Func<TSource, System.Boolean>)
+  type: Method
+  source:
+    id: SkipBetween
+    path: ''
+    startLine: 1918
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nReturn elements from source until startPredicate returns true, then skip them until endPredicate returns true.\nNote that the element endPredicate returns true for will be returned.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> SkipBetween<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> startPredicate, Func<TSource, bool> endPredicate)
+    parameters:
+    - id: source
+      type: IEnumerable{{TSource}}
+      description: ''
+    - id: startPredicate
+      type: Func{{TSource},System.Boolean}
+      description: When this returns true, begin skipping elements.
+    - id: endPredicate
+      type: Func{{TSource},System.Boolean}
+      description: When this returns true, stop skipping elements and yield the current one.
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: IEnumerable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SkipBetween(Of TSource)(source As IEnumerable(Of TSource), startPredicate As Func(Of TSource, Boolean), endPredicate As Func(Of TSource, Boolean)) As IEnumerable(Of TSource)
+  overload: Fluency.Execution.Parsing.ParseExtensions.SkipBetween*
+  nameWithType.vb: ParseExtensions.SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), Func(Of TSource, System.Boolean))
+  name.vb: SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, Boolean))
+- uid: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+  id: MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, TSource, TSource>)
+  nameWithType: ParseExtensions.MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, TSource, TSource>)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, Func<TSource, TSource, TSource>)
+  type: Method
+  source:
+    id: MergeLastIf
+    path: ''
+    startLine: 1947
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nCall predicate on each element. If that predicate returns true, then call merge on the current and previous elements and yield that instead of either the current or previous element.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<TSource> MergeLastIf<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate, Func<TSource, TSource, TSource> merge)
+    parameters:
+    - id: source
+      type: IEnumerable{{TSource}}
+      description: ''
+    - id: predicate
+      type: Func{{TSource},System.Boolean}
+      description: If this is true for current, call merge(current, previous)
+    - id: merge
+      type: Func{{TSource},{TSource},{TSource}}
+      description: If predicate(current) is true, yield merge(current, previous) instead of current or previous.
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: IEnumerable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MergeLastIf(Of TSource)(source As IEnumerable(Of TSource), predicate As Func(Of TSource, Boolean), merge As Func(Of TSource, TSource, TSource)) As IEnumerable(Of TSource)
+  overload: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf*
+  nameWithType.vb: ParseExtensions.MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, TSource, TSource))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), Func(Of TSource, TSource, TSource))
+  name.vb: MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, TSource, TSource))
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  id: GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, Boolean, GroupWhileAction>)
+  nameWithType: ParseExtensions.GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, Boolean, GroupWhileAction>)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction>)
+  type: Method
+  source:
+    id: GroupWhile
+    path: ''
+    startLine: 2000
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nGroups elements according to pickAction. For each element, pickAction is called with the element and whether the function is currently making a group.\nGroups will be yielded when complete- that is, when pickAction returns <xref href=\"Fluency.Execution.Parsing.GroupWhileAction.LeaveExclude\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"Fluency.Execution.Parsing.GroupWhileAction.LeaveInclude\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Grouped<TSource>> GroupWhile<TSource>(this IEnumerable<TSource> source, Func<TSource, bool, GroupWhileAction> pickAction)
+    parameters:
+    - id: source
+      type: IEnumerable{{TSource}}
+      description: ''
+    - id: pickAction
+      type: Func{{TSource},System.Boolean,Fluency.Execution.Parsing.GroupWhileAction}
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: IEnumerable{Fluency.Execution.Parsing.Grouped{{TSource}}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GroupWhile(Of TSource)(source As IEnumerable(Of TSource), pickAction As Func(Of TSource, Boolean, GroupWhileAction)) As IEnumerable(Of Grouped(Of TSource))
+  overload: Fluency.Execution.Parsing.ParseExtensions.GroupWhile*
+  nameWithType.vb: ParseExtensions.GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean, GroupWhileAction))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction))
+  name.vb: GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean, GroupWhileAction))
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  id: GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  isExtensionMethod: true
+  parent: Fluency.Execution.Parsing.ParseExtensions
+  langs:
+  - csharp
+  - vb
+  name: GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Boolean)
+  nameWithType: ParseExtensions.GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Boolean)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, System.Boolean)
+  type: Method
+  source:
+    id: GroupUntil
+    path: ''
+    startLine: 2046
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nGather elements of source into a group while predicate returns false. If predicate returns true, finish the current group and start a new one.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Grouped<TSource>> GroupUntil<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate, bool inclusive = false)
+    parameters:
+    - id: source
+      type: IEnumerable{{TSource}}
+      description: ''
+    - id: predicate
+      type: Func{{TSource},System.Boolean}
+      description: ''
+    - id: inclusive
+      type: System.Boolean
+      description: If true, the element that caused predicate to return false will be put in the current group. Otherwise, it&apos;ll be in the next one.
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: IEnumerable{Fluency.Execution.Parsing.Grouped{{TSource}}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GroupUntil(Of TSource)(source As IEnumerable(Of TSource), predicate As Func(Of TSource, Boolean), inclusive As Boolean = False) As IEnumerable(Of Grouped(Of TSource))
+  overload: Fluency.Execution.Parsing.ParseExtensions.GroupUntil*
+  nameWithType.vb: ParseExtensions.GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), System.Boolean)
+  name.vb: GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Boolean)
+references:
+- uid: Fluency.Execution.Parsing
+  commentId: N:Fluency.Execution.Parsing
+  name: Fluency.Execution.Parsing
+  nameWithType: Fluency.Execution.Parsing
+  fullName: Fluency.Execution.Parsing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify*
+  commentId: Overload:Fluency.Execution.Parsing.ParseExtensions.Stringify
+  name: Stringify
+  nameWithType: ParseExtensions.Stringify
+  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify
+- uid: IEnumerable{System.Char}
+  commentId: '!:IEnumerable{System.Char}'
+  definition: IEnumerable`1
+  name: IEnumerable<Char>
+  nameWithType: IEnumerable<Char>
+  fullName: IEnumerable<System.Char>
+  nameWithType.vb: IEnumerable(Of Char)
+  fullName.vb: IEnumerable(Of System.Char)
+  name.vb: IEnumerable(Of Char)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable{Argument}
+  commentId: '!:IEnumerable{Argument}'
+  definition: IEnumerable`1
+  name: IEnumerable<Argument>
+  nameWithType: IEnumerable<Argument>
+  fullName: IEnumerable<Argument>
+  nameWithType.vb: IEnumerable(Of Argument)
+  fullName.vb: IEnumerable(Of Argument)
+  name.vb: IEnumerable(Of Argument)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: Argument
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.ParseExtensions.SkipBetween*
+  commentId: Overload:Fluency.Execution.Parsing.ParseExtensions.SkipBetween
+  name: SkipBetween
+  nameWithType: ParseExtensions.SkipBetween
+  fullName: Fluency.Execution.Parsing.ParseExtensions.SkipBetween
+- uid: IEnumerable{{TSource}}
+  commentId: '!:IEnumerable{``0}'
+  definition: IEnumerable`1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func{{TSource},System.Boolean}
+  commentId: '!:Func{``0,System.Boolean}'
+  definition: Func`2
+  name: Func<TSource, Boolean>
+  nameWithType: Func<TSource, Boolean>
+  fullName: Func<TSource, System.Boolean>
+  nameWithType.vb: Func(Of TSource, Boolean)
+  fullName.vb: Func(Of TSource, System.Boolean)
+  name.vb: Func(Of TSource, Boolean)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf*
+  commentId: Overload:Fluency.Execution.Parsing.ParseExtensions.MergeLastIf
+  name: MergeLastIf
+  nameWithType: ParseExtensions.MergeLastIf
+  fullName: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf
+- uid: Func{{TSource},{TSource},{TSource}}
+  commentId: '!:Func{``0,``0,``0}'
+  definition: Func`3
+  name: Func<TSource, TSource, TSource>
+  nameWithType: Func<TSource, TSource, TSource>
+  fullName: Func<TSource, TSource, TSource>
+  nameWithType.vb: Func(Of TSource, TSource, TSource)
+  fullName.vb: Func(Of TSource, TSource, TSource)
+  name.vb: Func(Of TSource, TSource, TSource)
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.GroupWhileAction.LeaveExclude
+  commentId: F:Fluency.Execution.Parsing.GroupWhileAction.LeaveExclude
+  isExternal: true
+- uid: Fluency.Execution.Parsing.GroupWhileAction.LeaveInclude
+  commentId: F:Fluency.Execution.Parsing.GroupWhileAction.LeaveInclude
+  isExternal: true
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile*
+  commentId: Overload:Fluency.Execution.Parsing.ParseExtensions.GroupWhile
+  name: GroupWhile
+  nameWithType: ParseExtensions.GroupWhile
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupWhile
+- uid: Func{{TSource},System.Boolean,Fluency.Execution.Parsing.GroupWhileAction}
+  commentId: '!:Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction}'
+  definition: Func`3
+  name: Func<TSource, Boolean, GroupWhileAction>
+  nameWithType: Func<TSource, Boolean, GroupWhileAction>
+  fullName: Func<TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction>
+  nameWithType.vb: Func(Of TSource, Boolean, GroupWhileAction)
+  fullName.vb: Func(Of TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction)
+  name.vb: Func(Of TSource, Boolean, GroupWhileAction)
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Fluency.Execution.Parsing.GroupWhileAction
+    name: GroupWhileAction
+    nameWithType: GroupWhileAction
+    fullName: Fluency.Execution.Parsing.GroupWhileAction
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Fluency.Execution.Parsing.GroupWhileAction
+    name: GroupWhileAction
+    nameWithType: GroupWhileAction
+    fullName: Fluency.Execution.Parsing.GroupWhileAction
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable{Fluency.Execution.Parsing.Grouped{{TSource}}}
+  commentId: '!:IEnumerable{Fluency.Execution.Parsing.Grouped{``0}}'
+  definition: IEnumerable`1
+  name: IEnumerable<Grouped<TSource>>
+  nameWithType: IEnumerable<Grouped<TSource>>
+  fullName: IEnumerable<Fluency.Execution.Parsing.Grouped<TSource>>
+  nameWithType.vb: IEnumerable(Of Grouped(Of TSource))
+  fullName.vb: IEnumerable(Of Fluency.Execution.Parsing.Grouped(Of TSource))
+  name.vb: IEnumerable(Of Grouped(Of TSource))
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Fluency.Execution.Parsing.Grouped`1
+    name: Grouped
+    nameWithType: Grouped
+    fullName: Fluency.Execution.Parsing.Grouped
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Fluency.Execution.Parsing.Grouped`1
+    name: Grouped
+    nameWithType: Grouped
+    fullName: Fluency.Execution.Parsing.Grouped
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupUntil*
+  commentId: Overload:Fluency.Execution.Parsing.ParseExtensions.GroupUntil
+  name: GroupUntil
+  nameWithType: ParseExtensions.GroupUntil
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupUntil
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  commentId: T:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  id: FunctionNode
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph
+  children:
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor(Fluency.Execution.Parsing.Entities.FunctionToken)
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Arguments
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomIn
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomOut
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Name
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopIn
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopOut
+  - Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString
+  langs:
+  - csharp
+  - vb
+  name: FunctionNode
+  nameWithType: FunctionNode
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  type: Class
+  source:
+    id: FunctionNode
+    path: ''
+    startLine: 2831
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nRepresents a single function in a pipeline.\n"
+  example: []
+  syntax:
+    content: public class FunctionNode
+    content.vb: Public Class FunctionNode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Name
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Name
+  id: Name
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FunctionNode.Name
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 2836
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function&apos;s name.\n"
+  example: []
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Arguments
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Arguments
+  id: Arguments
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: Arguments
+  nameWithType: FunctionNode.Arguments
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Arguments
+  type: Field
+  source:
+    id: Arguments
+    path: ''
+    startLine: 2841
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function&apos;s declared arguments.\n"
+  example: []
+  syntax:
+    content: public Argument[] Arguments
+    return:
+      type: Fluency.Execution.Parsing.Entities.Argument[]
+    content.vb: Public Arguments As Argument()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopIn
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopIn
+  id: TopIn
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: TopIn
+  nameWithType: FunctionNode.TopIn
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopIn
+  type: Field
+  source:
+    id: TopIn
+    path: ''
+    startLine: 2846
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function that this reads from on top (&quot;top&quot; can be above or immediately before on the same level).\n"
+  example: []
+  syntax:
+    content: public FunctionNode TopIn
+    return:
+      type: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+    content.vb: Public TopIn As FunctionNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomIn
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomIn
+  id: BottomIn
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: BottomIn
+  nameWithType: FunctionNode.BottomIn
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomIn
+  type: Field
+  source:
+    id: BottomIn
+    path: ''
+    startLine: 2851
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function that feeds this one from the bottom.\n"
+  example: []
+  syntax:
+    content: public FunctionNode BottomIn
+    return:
+      type: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+    content.vb: Public BottomIn As FunctionNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopOut
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopOut
+  id: TopOut
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: TopOut
+  nameWithType: FunctionNode.TopOut
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.TopOut
+  type: Field
+  source:
+    id: TopOut
+    path: ''
+    startLine: 2856
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function that this outputs to on top (&quot;top&quot; can be above or immediately before on the same level).\n"
+  example: []
+  syntax:
+    content: public FunctionNode TopOut
+    return:
+      type: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+    content.vb: Public TopOut As FunctionNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomOut
+  commentId: F:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomOut
+  id: BottomOut
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: BottomOut
+  nameWithType: FunctionNode.BottomOut
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.BottomOut
+  type: Field
+  source:
+    id: BottomOut
+    path: ''
+    startLine: 2861
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nThe function that this outputs to on the bottom.\n"
+  example: []
+  syntax:
+    content: public FunctionNode BottomOut
+    return:
+      type: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+    content.vb: Public BottomOut As FunctionNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+  commentId: P:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+  id: Tiebreaker
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: Tiebreaker
+  nameWithType: FunctionNode.Tiebreaker
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+  type: Property
+  source:
+    id: Tiebreaker
+    path: ''
+    startLine: 2866
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nIn the case where there are multiple outgoing bottom pipelines, the one that&apos;s furthest to the right wins.\n"
+  example: []
+  syntax:
+    content: public int Tiebreaker { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Tiebreaker As Integer
+  overload: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+  commentId: P:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+  id: Id
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FunctionNode.Id
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 2872
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nA unique integer ID for this function. Two function calls with the same name have different IDs.\n"
+  example: []
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor(Fluency.Execution.Parsing.Entities.FunctionToken)
+  commentId: M:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor(Fluency.Execution.Parsing.Entities.FunctionToken)
+  id: '#ctor(Fluency.Execution.Parsing.Entities.FunctionToken)'
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: FunctionNode(FunctionToken)
+  nameWithType: FunctionNode.FunctionNode(FunctionToken)
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.FunctionNode(Fluency.Execution.Parsing.Entities.FunctionToken)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2879
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nMake a function node from a parsed function token.\n"
+  example: []
+  syntax:
+    content: public FunctionNode(FunctionToken tok)
+    parameters:
+    - id: tok
+      type: Fluency.Execution.Parsing.Entities.FunctionToken
+      description: ''
+    content.vb: Public Sub New(tok As FunctionToken)
+  overload: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode
+  commentId: M:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode
+  id: GetHashCode
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: FunctionNode.GetHashCode()
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 2886
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString
+  commentId: M:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString
+  id: ToString
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FunctionNode.ToString()
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 2895
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities.FunctionGraph
+  summary: "\nReturn a string that looks like Name(arguments, like this)\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph
+  commentId: N:Fluency.Execution.Parsing.Entities.FunctionGraph
+  name: Fluency.Execution.Parsing.Entities.FunctionGraph
+  nameWithType: Fluency.Execution.Parsing.Entities.FunctionGraph
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Parsing.Entities.Argument[]
+  isExternal: true
+  name: Argument[]
+  nameWithType: Argument[]
+  fullName: Fluency.Execution.Parsing.Entities.Argument[]
+  nameWithType.vb: Argument()
+  fullName.vb: Fluency.Execution.Parsing.Entities.Argument()
+  name.vb: Argument()
+  spec.csharp:
+  - uid: Fluency.Execution.Parsing.Entities.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: Fluency.Execution.Parsing.Entities.Argument
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Parsing.Entities.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: Fluency.Execution.Parsing.Entities.Argument
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  commentId: T:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph
+  name: FunctionNode
+  nameWithType: FunctionNode
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+  name: Tiebreaker
+  nameWithType: FunctionNode.Tiebreaker
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Tiebreaker
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+  name: Id
+  nameWithType: FunctionNode.Id
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.Id
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.#ctor
+  name: FunctionNode
+  nameWithType: FunctionNode.FunctionNode
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.FunctionNode
+- uid: Fluency.Execution.Parsing.Entities.FunctionToken
+  commentId: T:Fluency.Execution.Parsing.Entities.FunctionToken
+  parent: Fluency.Execution.Parsing.Entities
+  name: FunctionToken
+  nameWithType: FunctionToken
+  fullName: Fluency.Execution.Parsing.Entities.FunctionToken
+- uid: Fluency.Execution.Parsing.Entities
+  commentId: N:Fluency.Execution.Parsing.Entities
+  name: Fluency.Execution.Parsing.Entities
+  nameWithType: Fluency.Execution.Parsing.Entities
+  fullName: Fluency.Execution.Parsing.Entities
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode
+  name: GetHashCode
+  nameWithType: FunctionNode.GetHashCode
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString
+  name: ToString
+  nameWithType: FunctionNode.ToString
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.ToString

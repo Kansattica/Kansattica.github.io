@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  commentId: T:Fluency.Execution.Functions.BuiltIn.SwitchIn
+  id: SwitchIn
+  parent: Fluency.Execution.Functions.BuiltIn
+  children:
+  - Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor(Fluency.Execution.Functions.Value[])
+  - Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+  - Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+  - Fluency.Execution.Functions.BuiltIn.SwitchIn.Top
+  - Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+  langs:
+  - csharp
+  - vb
+  name: SwitchIn
+  nameWithType: SwitchIn
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  type: Class
+  source:
+    id: SwitchIn
+    path: ''
+    startLine: 1240
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  summary: "\nIf SwitchIn(true), put everything from the top input onto the top pipeline.\nIf SwitchIn(false), put everything from the bottom input onto the top pipeline.\nIf no argument given, treat the first value seen as if it was passed as the argument.\n"
+  example: []
+  syntax:
+    content: 'public class SwitchIn : ITopIn, IBottomIn, ITopOut, IFunction'
+    content.vb: >-
+      Public Class SwitchIn
+          Implements ITopIn, IBottomIn, ITopOut, IFunction
+  inheritance:
+  - System.Object
+  implements:
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.IBottomIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.IFunction
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+  commentId: P:Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+  id: Name
+  parent: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SwitchIn.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1242
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fluency.Execution.Functions.BuiltIn.SwitchIn.Name*
+  implements:
+  - Fluency.Execution.Functions.IFunction.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+  id: TopInput
+  parent: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  langs:
+  - csharp
+  - vb
+  name: TopInput
+  nameWithType: SwitchIn.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+  type: Property
+  source:
+    id: TopInput
+    path: ''
+    startLine: 1244
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext TopInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property TopInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput*
+  implements:
+  - Fluency.Execution.Functions.ITopIn.TopInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+  id: BottomInput
+  parent: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  langs:
+  - csharp
+  - vb
+  name: BottomInput
+  nameWithType: SwitchIn.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+  type: Property
+  source:
+    id: BottomInput
+    path: ''
+    startLine: 1245
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext BottomInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property BottomInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput*
+  implements:
+  - Fluency.Execution.Functions.IBottomIn.BottomInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor(Fluency.Execution.Functions.Value[])
+  commentId: M:Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor(Fluency.Execution.Functions.Value[])
+  id: '#ctor(Fluency.Execution.Functions.Value[])'
+  parent: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  langs:
+  - csharp
+  - vb
+  name: SwitchIn(Value[])
+  nameWithType: SwitchIn.SwitchIn(Value[])
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.SwitchIn(Fluency.Execution.Functions.Value[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1249
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public SwitchIn(Value[] arguments)
+    parameters:
+    - id: arguments
+      type: Fluency.Execution.Functions.Value[]
+    content.vb: Public Sub New(arguments As Value())
+  overload: Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor*
+  nameWithType.vb: SwitchIn.SwitchIn(Value())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.SwitchIn.SwitchIn(Fluency.Execution.Functions.Value())
+  name.vb: SwitchIn(Value())
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.Top
+  commentId: M:Fluency.Execution.Functions.BuiltIn.SwitchIn.Top
+  id: Top
+  parent: Fluency.Execution.Functions.BuiltIn.SwitchIn
+  langs:
+  - csharp
+  - vb
+  name: Top()
+  nameWithType: SwitchIn.Top()
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.Top()
+  type: Method
+  source:
+    id: Top
+    path: ''
+    startLine: 1276
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public Value Top()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Top As Value
+  overload: Fluency.Execution.Functions.BuiltIn.SwitchIn.Top*
+  implements:
+  - Fluency.Execution.Functions.ITopOut.Top
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Fluency.Execution.Functions.BuiltIn
+  commentId: N:Fluency.Execution.Functions.BuiltIn
+  name: Fluency.Execution.Functions.BuiltIn
+  nameWithType: Fluency.Execution.Functions.BuiltIn
+  fullName: Fluency.Execution.Functions.BuiltIn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  parent: Fluency.Execution.Functions
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.Name*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+  name: Name
+  nameWithType: SwitchIn.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.Name
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+  name: TopInput
+  nameWithType: SwitchIn.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.TopInput
+- uid: Fluency.Execution.Functions.ITopIn.TopInput
+  commentId: P:Fluency.Execution.Functions.ITopIn.TopInput
+  parent: Fluency.Execution.Functions.ITopIn
+  name: TopInput
+  nameWithType: ITopIn.TopInput
+  fullName: Fluency.Execution.Functions.ITopIn.TopInput
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+  name: BottomInput
+  nameWithType: SwitchIn.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.BottomInput
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.IBottomIn.BottomInput
+  parent: Fluency.Execution.Functions.IBottomIn
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.SwitchIn.#ctor
+  name: SwitchIn
+  nameWithType: SwitchIn.SwitchIn
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.SwitchIn
+- uid: Fluency.Execution.Functions.Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Fluency.Execution.Functions.Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Fluency.Execution.Functions.Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.Functions.BuiltIn.SwitchIn.Top*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.SwitchIn.Top
+  name: Top
+  nameWithType: SwitchIn.Top
+  fullName: Fluency.Execution.Functions.BuiltIn.SwitchIn.Top
+- uid: Fluency.Execution.Functions.ITopOut.Top
+  commentId: M:Fluency.Execution.Functions.ITopOut.Top
+  parent: Fluency.Execution.Functions.ITopOut
+  name: Top()
+  nameWithType: ITopOut.Top()
+  fullName: Fluency.Execution.Functions.ITopOut.Top()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value

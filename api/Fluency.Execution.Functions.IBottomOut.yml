@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.IBottomOut
+  commentId: T:Fluency.Execution.Functions.IBottomOut
+  id: IBottomOut
+  parent: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.IBottomOut.Bottom
+  langs:
+  - csharp
+  - vb
+  name: IBottomOut
+  nameWithType: IBottomOut
+  fullName: Fluency.Execution.Functions.IBottomOut
+  type: Interface
+  source:
+    id: IBottomOut
+    path: ''
+    startLine: 349
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  summary: "\nA Fluency function that writes to the bottom output.\n"
+  example: []
+  syntax:
+    content: 'public interface IBottomOut : IFunction'
+    content.vb: >-
+      Public Interface IBottomOut
+          Inherits IFunction
+  inheritedMembers:
+  - Fluency.Execution.Functions.IFunction.Name
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Fluency.Execution.Functions.IBottomOut.Bottom
+  commentId: M:Fluency.Execution.Functions.IBottomOut.Bottom
+  id: Bottom
+  parent: Fluency.Execution.Functions.IBottomOut
+  langs:
+  - csharp
+  - vb
+  name: Bottom()
+  nameWithType: IBottomOut.Bottom()
+  fullName: Fluency.Execution.Functions.IBottomOut.Bottom()
+  type: Method
+  source:
+    id: Bottom
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  summary: "\nCalled when the function after this one on the bottom wants a value.\n"
+  example: []
+  syntax:
+    content: Value Bottom()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Function Bottom As Value
+  overload: Fluency.Execution.Functions.IBottomOut.Bottom*
+references:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: Fluency.Execution.Functions.IBottomOut.Bottom*
+  commentId: Overload:Fluency.Execution.Functions.IBottomOut.Bottom
+  name: Bottom
+  nameWithType: IBottomOut.Bottom
+  fullName: Fluency.Execution.Functions.IBottomOut.Bottom
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value

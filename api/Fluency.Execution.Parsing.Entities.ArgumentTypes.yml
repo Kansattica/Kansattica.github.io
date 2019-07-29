@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  commentId: N:Fluency.Execution.Parsing.Entities.ArgumentTypes
+  id: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  children:
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg
+  langs:
+  - csharp
+  - vb
+  name: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  nameWithType: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg
+  commentId: T:Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg
+  parent: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: BoolArg
+  nameWithType: BoolArg
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg
+  commentId: T:Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg
+  parent: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: DoubleArg
+  nameWithType: DoubleArg
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  commentId: T:Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  parent: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: FunctionArg
+  nameWithType: FunctionArg
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg
+  commentId: T:Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg
+  parent: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: IntArg
+  nameWithType: IntArg
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg
+  commentId: T:Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg
+  parent: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: StringArg
+  nameWithType: StringArg
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  commentId: N:Fluency.Execution.Parsing.Entities.ArgumentTypes
+  name: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  nameWithType: Fluency.Execution.Parsing.Entities.ArgumentTypes
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes

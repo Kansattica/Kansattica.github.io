@@ -1,0 +1,1112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  commentId: T:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  id: WrapBinaryTwoOutputs`4
+  parent: Fluency.Execution.Functions.BuiltIn
+  children:
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput
+  - Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+  langs:
+  - csharp
+  - vb
+  name: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>
+  type: Class
+  source:
+    id: WrapBinaryTwoOutputs
+    path: ''
+    startLine: 1640
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  summary: "\nWrap a C# function that takes two arguments and returns two values as a Fluency function.\nWorks just like <xref href=\"Fluency.Execution.Functions.BuiltIn.WrapBinary%603\" data-throw-if-not-resolved=\"false\"></xref>, except it wraps something that returns exactly two values.\n- If no arguments given, read something from the top and the bottom and do the operation on them, returning something on top and something on the bottom.\n- If one argument given, read something from the top and do the operation with that and the argument.\nThis is how DivMod is implemented.\n"
+  example: []
+  syntax:
+    content: 'public class WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut> : ITopIn, IBottomIn, ITopOut, IBottomOut, IFunction'
+    typeParameters:
+    - id: TRealTop
+    - id: TRealBottom
+    - id: TRealTopOut
+    - id: TRealBottomOut
+    content.vb: >-
+      Public Class WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
+          Implements ITopIn, IBottomIn, ITopOut, IBottomOut, IFunction
+  inheritance:
+  - System.Object
+  implements:
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.IBottomIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.IBottomOut
+  - Fluency.Execution.Functions.IFunction
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
+  name.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name
+  commentId: P:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name
+  id: Name
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1647
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name*
+  implements:
+  - Fluency.Execution.Functions.IFunction.Name
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Name
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput
+  id: TopInput
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: TopInput
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TopInput
+  type: Property
+  source:
+    id: TopInput
+    path: ''
+    startLine: 1649
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext TopInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property TopInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput*
+  implements:
+  - Fluency.Execution.Functions.ITopIn.TopInput
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput
+  id: BottomInput
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: BottomInput
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.BottomInput
+  type: Property
+  source:
+    id: BottomInput
+    path: ''
+    startLine: 1650
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext BottomInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property BottomInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput*
+  implements:
+  - Fluency.Execution.Functions.IBottomIn.BottomInput
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).BottomInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).BottomInput
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  id: '#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])'
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)>, FluencyType, FluencyType, FluencyType, String, Value[])
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)>, FluencyType, FluencyType, FluencyType, String, Value[])
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, System.ValueTuple<TRealTopOut, TRealBottomOut>>, FluencyType, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1652
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)> function, FluencyType argType, FluencyType topReturnType, FluencyType bottomReturnType, string name, Value[] arguments)
+    parameters:
+    - id: function
+      type: Func{{TRealTop},{TRealBottom},System.ValueTuple{{TRealTopOut},{TRealBottomOut}}}
+    - id: argType
+      type: FluencyType
+    - id: topReturnType
+      type: FluencyType
+    - id: bottomReturnType
+      type: FluencyType
+    - id: name
+      type: System.String
+    - id: arguments
+      type: Fluency.Execution.Functions.Value[]
+    content.vb: Public Sub New(function As Func(Of TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)), argType As FluencyType, topReturnType As FluencyType, bottomReturnType As FluencyType, name As String, arguments As Value())
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor*
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, String, Value())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, System.ValueTuple(Of TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value())
+  name.vb: WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, String, Value())
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+  id: TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: TryGetFromQueue(Queue<Value>)
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue(Queue<Value>)
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue(Queue<Fluency.Execution.Functions.Value>)
+  type: Method
+  source:
+    id: TryGetFromQueue
+    path: ''
+    startLine: 1677
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public Value TryGetFromQueue(Queue<Value> queue)
+    parameters:
+    - id: queue
+      type: Queue{Fluency.Execution.Functions.Value}
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function TryGetFromQueue(queue As Queue(Of Value)) As Value
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue*
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue(Queue(Of Value))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue(Queue(Of Fluency.Execution.Functions.Value))
+  name.vb: TryGetFromQueue(Queue(Of Value))
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top
+  id: Top
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: Top()
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Top()
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Top()
+  type: Method
+  source:
+    id: Top
+    path: ''
+    startLine: 1701
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public Value Top()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Top As Value
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top*
+  implements:
+  - Fluency.Execution.Functions.ITopOut.Top
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Top()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Top()
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom
+  id: Bottom
+  parent: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4
+  langs:
+  - csharp
+  - vb
+  name: Bottom()
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Bottom()
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Bottom()
+  type: Method
+  source:
+    id: Bottom
+    path: ''
+    startLine: 1706
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public Value Bottom()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Bottom As Value
+  overload: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom*
+  implements:
+  - Fluency.Execution.Functions.IBottomOut.Bottom
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Bottom()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Bottom()
+references:
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3
+  commentId: T:Fluency.Execution.Functions.BuiltIn.WrapBinary`3
+  name: WrapBinary<TRealTop, TRealBottom, TRealOut>
+  nameWithType: WrapBinary<TRealTop, TRealBottom, TRealOut>
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinary<TRealTop, TRealBottom, TRealOut>
+  nameWithType.vb: WrapBinary(Of TRealTop, TRealBottom, TRealOut)
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinary(Of TRealTop, TRealBottom, TRealOut)
+  name.vb: WrapBinary(Of TRealTop, TRealBottom, TRealOut)
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3
+    name: WrapBinary
+    nameWithType: WrapBinary
+    fullName: Fluency.Execution.Functions.BuiltIn.WrapBinary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRealTop
+    nameWithType: TRealTop
+    fullName: TRealTop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottom
+    nameWithType: TRealBottom
+    fullName: TRealBottom
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealOut
+    nameWithType: TRealOut
+    fullName: TRealOut
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3
+    name: WrapBinary
+    nameWithType: WrapBinary
+    fullName: Fluency.Execution.Functions.BuiltIn.WrapBinary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRealTop
+    nameWithType: TRealTop
+    fullName: TRealTop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottom
+    nameWithType: TRealBottom
+    fullName: TRealBottom
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealOut
+    nameWithType: TRealOut
+    fullName: TRealOut
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn
+  commentId: N:Fluency.Execution.Functions.BuiltIn
+  name: Fluency.Execution.Functions.BuiltIn
+  nameWithType: Fluency.Execution.Functions.BuiltIn
+  fullName: Fluency.Execution.Functions.BuiltIn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  parent: Fluency.Execution.Functions
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IBottomOut
+  commentId: T:Fluency.Execution.Functions.IBottomOut
+  parent: Fluency.Execution.Functions
+  name: IBottomOut
+  nameWithType: IBottomOut
+  fullName: Fluency.Execution.Functions.IBottomOut
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Name
+  name: Name
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Name
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Name
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Name
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TopInput
+  name: TopInput
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TopInput
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
+- uid: Fluency.Execution.Functions.ITopIn.TopInput
+  commentId: P:Fluency.Execution.Functions.ITopIn.TopInput
+  parent: Fluency.Execution.Functions.ITopIn
+  name: TopInput
+  nameWithType: ITopIn.TopInput
+  fullName: Fluency.Execution.Functions.ITopIn.TopInput
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.BottomInput
+  name: BottomInput
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.BottomInput
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).BottomInput
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).BottomInput
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.IBottomIn.BottomInput
+  parent: Fluency.Execution.Functions.IBottomIn
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor
+  name: WrapBinaryTwoOutputs
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs
+- uid: Func{{TRealTop},{TRealBottom},System.ValueTuple{{TRealTopOut},{TRealBottomOut}}}
+  commentId: '!:Func{`0,`1,System.ValueTuple{`2,`3}}'
+  definition: Func`3
+  name: Func<TRealTop, TRealBottom, ValueTuple<TRealTopOut, TRealBottomOut>>
+  nameWithType: Func<TRealTop, TRealBottom, ValueTuple<TRealTopOut, TRealBottomOut>>
+  fullName: Func<TRealTop, TRealBottom, System.ValueTuple<TRealTopOut, TRealBottomOut>>
+  nameWithType.vb: Func(Of TRealTop, TRealBottom, ValueTuple(Of TRealTopOut, TRealBottomOut))
+  fullName.vb: Func(Of TRealTop, TRealBottom, System.ValueTuple(Of TRealTopOut, TRealBottomOut))
+  name.vb: Func(Of TRealTop, TRealBottom, ValueTuple(Of TRealTopOut, TRealBottomOut))
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRealTop
+    nameWithType: TRealTop
+    fullName: TRealTop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottom
+    nameWithType: TRealBottom
+    fullName: TRealBottom
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRealTopOut
+    nameWithType: TRealTopOut
+    fullName: TRealTopOut
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottomOut
+    nameWithType: TRealBottomOut
+    fullName: TRealBottomOut
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRealTop
+    nameWithType: TRealTop
+    fullName: TRealTop
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottom
+    nameWithType: TRealBottom
+    fullName: TRealBottom
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRealTopOut
+    nameWithType: TRealTopOut
+    fullName: TRealTopOut
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRealBottomOut
+    nameWithType: TRealBottomOut
+    fullName: TRealBottomOut
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FluencyType
+  isExternal: true
+  name: FluencyType
+  nameWithType: FluencyType
+  fullName: FluencyType
+- uid: Fluency.Execution.Functions.Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Fluency.Execution.Functions.Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Fluency.Execution.Functions.Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`3
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue
+  name: TryGetFromQueue
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue
+- uid: Queue{Fluency.Execution.Functions.Value}
+  commentId: '!:Queue{Fluency.Execution.Functions.Value}'
+  definition: Queue`1
+  name: Queue<Value>
+  nameWithType: Queue<Value>
+  fullName: Queue<Fluency.Execution.Functions.Value>
+  nameWithType.vb: Queue(Of Value)
+  fullName.vb: Queue(Of Fluency.Execution.Functions.Value)
+  name.vb: Queue(Of Value)
+  spec.csharp:
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value
+- uid: Queue`1
+  isExternal: true
+  name: Queue<>
+  nameWithType: Queue<>
+  fullName: Queue<>
+  nameWithType.vb: Queue(Of )
+  fullName.vb: Queue(Of )
+  name.vb: Queue(Of )
+  spec.csharp:
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Top
+  name: Top
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Top
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Top
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Top
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Top
+- uid: Fluency.Execution.Functions.ITopOut.Top
+  commentId: M:Fluency.Execution.Functions.ITopOut.Top
+  parent: Fluency.Execution.Functions.ITopOut
+  name: Top()
+  nameWithType: ITopOut.Top()
+  fullName: Fluency.Execution.Functions.ITopOut.Top()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.Bottom
+  name: Bottom
+  nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Bottom
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.Bottom
+  nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Bottom
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).Bottom
+- uid: Fluency.Execution.Functions.IBottomOut.Bottom
+  commentId: M:Fluency.Execution.Functions.IBottomOut.Bottom
+  parent: Fluency.Execution.Functions.IBottomOut
+  name: Bottom()
+  nameWithType: IBottomOut.Bottom()
+  fullName: Fluency.Execution.Functions.IBottomOut.Bottom()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.IBottomOut.Bottom
+    name: Bottom
+    nameWithType: IBottomOut.Bottom
+    fullName: Fluency.Execution.Functions.IBottomOut.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.IBottomOut.Bottom
+    name: Bottom
+    nameWithType: IBottomOut.Bottom
+    fullName: Fluency.Execution.Functions.IBottomOut.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

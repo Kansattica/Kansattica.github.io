@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  id: IBottomIn
+  parent: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.IBottomIn.BottomInput
+  langs:
+  - csharp
+  - vb
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+  type: Interface
+  source:
+    id: IBottomIn
+    path: ''
+    startLine: 371
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  summary: "\nA Fluency function that reads from the bottom input.\n"
+  example: []
+  syntax:
+    content: 'public interface IBottomIn : IFunction'
+    content.vb: >-
+      Public Interface IBottomIn
+          Inherits IFunction
+  inheritedMembers:
+  - Fluency.Execution.Functions.IFunction.Name
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.IBottomIn.BottomInput
+  id: BottomInput
+  parent: Fluency.Execution.Functions.IBottomIn
+  langs:
+  - csharp
+  - vb
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+  type: Property
+  source:
+    id: BottomInput
+    path: ''
+    startLine: 376
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  summary: "\nA function to call when you want the next value from the bottom input.\n"
+  example: []
+  syntax:
+    content: GetNext BottomInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: WriteOnly Property BottomInput As GetNext
+  overload: Fluency.Execution.Functions.IBottomIn.BottomInput*
+  modifiers.csharp:
+  - set
+  modifiers.vb:
+  - WriteOnly
+references:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput*
+  commentId: Overload:Fluency.Execution.Functions.IBottomIn.BottomInput
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext

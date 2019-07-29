@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.BuiltIn.Factory
+  commentId: N:Fluency.Execution.Functions.BuiltIn.Factory
+  id: Fluency.Execution.Functions.BuiltIn.Factory
+  children:
+  - Fluency.Execution.Functions.BuiltIn.Factory.BuiltInFactory
+  langs:
+  - csharp
+  - vb
+  name: Fluency.Execution.Functions.BuiltIn.Factory
+  nameWithType: Fluency.Execution.Functions.BuiltIn.Factory
+  fullName: Fluency.Execution.Functions.BuiltIn.Factory
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fluency.Execution.Functions.BuiltIn.Factory.BuiltInFactory
+  commentId: T:Fluency.Execution.Functions.BuiltIn.Factory.BuiltInFactory
+  name: BuiltInFactory
+  nameWithType: BuiltInFactory
+  fullName: Fluency.Execution.Functions.BuiltIn.Factory.BuiltInFactory

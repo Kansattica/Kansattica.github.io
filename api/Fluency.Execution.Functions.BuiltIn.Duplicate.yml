@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.BuiltIn.Duplicate
+  commentId: T:Fluency.Execution.Functions.BuiltIn.Duplicate
+  id: Duplicate
+  parent: Fluency.Execution.Functions.BuiltIn
+  children:
+  - Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+  langs:
+  - csharp
+  - vb
+  name: Duplicate
+  nameWithType: Duplicate
+  fullName: Fluency.Execution.Functions.BuiltIn.Duplicate
+  type: Class
+  source:
+    id: Duplicate
+    path: ''
+    startLine: 1021
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: 'public class Duplicate : Dup, ITopIn, ITopOut, IBottomOut, IFunction'
+    content.vb: >-
+      Public Class Duplicate
+          Inherits Dup
+          Implements ITopIn, ITopOut, IBottomOut, IFunction
+  inheritance:
+  - System.Object
+  - Fluency.Execution.Functions.BuiltIn.Dup
+  implements:
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.IBottomOut
+  - Fluency.Execution.Functions.IFunction
+  inheritedMembers:
+  - Fluency.Execution.Functions.BuiltIn.Dup.TopInput
+  - Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+  - Fluency.Execution.Functions.BuiltIn.Dup.Top
+  - Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+  commentId: P:Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+  id: Name
+  parent: Fluency.Execution.Functions.BuiltIn.Duplicate
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Duplicate.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1023
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public override string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Name As String
+  overridden: Fluency.Execution.Functions.BuiltIn.Dup.Name
+  overload: Fluency.Execution.Functions.BuiltIn.Duplicate.Name*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: Fluency.Execution.Functions.BuiltIn
+  commentId: N:Fluency.Execution.Functions.BuiltIn
+  name: Fluency.Execution.Functions.BuiltIn
+  nameWithType: Fluency.Execution.Functions.BuiltIn
+  fullName: Fluency.Execution.Functions.BuiltIn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.BuiltIn.Dup
+  commentId: T:Fluency.Execution.Functions.BuiltIn.Dup
+  parent: Fluency.Execution.Functions.BuiltIn
+  name: Dup
+  nameWithType: Dup
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IBottomOut
+  commentId: T:Fluency.Execution.Functions.IBottomOut
+  parent: Fluency.Execution.Functions
+  name: IBottomOut
+  nameWithType: IBottomOut
+  fullName: Fluency.Execution.Functions.IBottomOut
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.TopInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.Dup.TopInput
+  parent: Fluency.Execution.Functions.BuiltIn.Dup
+  name: TopInput
+  nameWithType: Dup.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.TopInput
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+  commentId: M:Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+  parent: Fluency.Execution.Functions.BuiltIn.Dup
+  isExternal: true
+  name: DoQueueing(Queue<Value>, Queue<Value>)
+  nameWithType: Dup.DoQueueing(Queue<Value>, Queue<Value>)
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue<Fluency.Execution.Functions.Value>, Queue<Fluency.Execution.Functions.Value>)
+  nameWithType.vb: Dup.DoQueueing(Queue(Of Value), Queue(Of Value))
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue(Of Fluency.Execution.Functions.Value), Queue(Of Fluency.Execution.Functions.Value))
+  name.vb: DoQueueing(Queue(Of Value), Queue(Of Value))
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+    name: DoQueueing
+    nameWithType: Dup.DoQueueing
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+    name: DoQueueing
+    nameWithType: Dup.DoQueueing
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.Top
+  commentId: M:Fluency.Execution.Functions.BuiltIn.Dup.Top
+  parent: Fluency.Execution.Functions.BuiltIn.Dup
+  name: Top()
+  nameWithType: Dup.Top()
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.Top()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.Top
+    name: Top
+    nameWithType: Dup.Top
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.Top
+    name: Top
+    nameWithType: Dup.Top
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+  commentId: M:Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+  parent: Fluency.Execution.Functions.BuiltIn.Dup
+  name: Bottom()
+  nameWithType: Dup.Bottom()
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.Bottom()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+    name: Bottom
+    nameWithType: Dup.Bottom
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+    name: Bottom
+    nameWithType: Dup.Bottom
+    fullName: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.Name
+  commentId: P:Fluency.Execution.Functions.BuiltIn.Dup.Name
+  parent: Fluency.Execution.Functions.BuiltIn.Dup
+  name: Name
+  nameWithType: Dup.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.Name
+- uid: Fluency.Execution.Functions.BuiltIn.Duplicate.Name*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+  name: Name
+  nameWithType: Duplicate.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.Duplicate.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

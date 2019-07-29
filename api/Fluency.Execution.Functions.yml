@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  id: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.ExecutableNode
+  - Fluency.Execution.Functions.ExecutableNode`1
+  - Fluency.Execution.Functions.GetNext
+  - Fluency.Execution.Functions.IBottomIn
+  - Fluency.Execution.Functions.IBottomOut
+  - Fluency.Execution.Functions.IFunction
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.UserDefinedFunction
+  - Fluency.Execution.Functions.UserFunctionStub
+  - Fluency.Execution.Functions.Value
+  langs:
+  - csharp
+  - vb
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fluency.Execution.Functions.ExecutableNode
+  commentId: T:Fluency.Execution.Functions.ExecutableNode
+  parent: Fluency.Execution.Functions
+  name: ExecutableNode
+  nameWithType: ExecutableNode
+  fullName: Fluency.Execution.Functions.ExecutableNode
+- uid: Fluency.Execution.Functions.ExecutableNode`1
+  commentId: T:Fluency.Execution.Functions.ExecutableNode`1
+  name: ExecutableNode<T>
+  nameWithType: ExecutableNode<T>
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>
+  nameWithType.vb: ExecutableNode(Of T)
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T)
+  name.vb: ExecutableNode(Of T)
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.ExecutableNode`1
+    name: ExecutableNode
+    nameWithType: ExecutableNode
+    fullName: Fluency.Execution.Functions.ExecutableNode
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.ExecutableNode`1
+    name: ExecutableNode
+    nameWithType: ExecutableNode
+    fullName: Fluency.Execution.Functions.ExecutableNode
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IBottomOut
+  commentId: T:Fluency.Execution.Functions.IBottomOut
+  parent: Fluency.Execution.Functions
+  name: IBottomOut
+  nameWithType: IBottomOut
+  fullName: Fluency.Execution.Functions.IBottomOut
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  parent: Fluency.Execution.Functions
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext
+- uid: Fluency.Execution.Functions.UserDefinedFunction
+  commentId: T:Fluency.Execution.Functions.UserDefinedFunction
+  name: UserDefinedFunction
+  nameWithType: UserDefinedFunction
+  fullName: Fluency.Execution.Functions.UserDefinedFunction
+- uid: Fluency.Execution.Functions.UserFunctionStub
+  commentId: T:Fluency.Execution.Functions.UserFunctionStub
+  name: UserFunctionStub
+  nameWithType: UserFunctionStub
+  fullName: Fluency.Execution.Functions.UserFunctionStub
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions

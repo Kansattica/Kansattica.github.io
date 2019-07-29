@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.ParsedCallback
+  commentId: T:Fluency.Execution.Parsing.ParsedCallback
+  id: ParsedCallback
+  parent: Fluency.Execution.Parsing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ParsedCallback
+  nameWithType: ParsedCallback
+  fullName: Fluency.Execution.Parsing.ParsedCallback
+  type: Delegate
+  source:
+    id: ParsedCallback
+    path: ''
+    startLine: 2342
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nCalled on each parsed function after it&apos;s parsed successfully for anyone that wants to see. \n"
+  example: []
+  syntax:
+    content: public delegate void ParsedCallback(FunctionGraph graph);
+    parameters:
+    - id: graph
+      type: FunctionGraph
+      description: ''
+    content.vb: Public Delegate Sub ParsedCallback(graph As FunctionGraph)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Fluency.Execution.Parsing
+  commentId: N:Fluency.Execution.Parsing
+  name: Fluency.Execution.Parsing
+  nameWithType: Fluency.Execution.Parsing
+  fullName: Fluency.Execution.Parsing
+- uid: FunctionGraph
+  isExternal: true
+  name: FunctionGraph
+  nameWithType: FunctionGraph
+  fullName: FunctionGraph

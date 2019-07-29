@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.Entities.Argument
+  commentId: T:Fluency.Execution.Parsing.Entities.Argument
+  id: Argument
+  parent: Fluency.Execution.Parsing.Entities
+  children:
+  - Fluency.Execution.Parsing.Entities.Argument.#ctor
+  - Fluency.Execution.Parsing.Entities.Argument.GetAs``1
+  - Fluency.Execution.Parsing.Entities.Argument.TryParse(System.String,Fluency.Execution.Parsing.Entities.Argument@)
+  - Fluency.Execution.Parsing.Entities.Argument.Type
+  - Fluency.Execution.Parsing.Entities.Argument.Value
+  langs:
+  - csharp
+  - vb
+  name: Argument
+  nameWithType: Argument
+  fullName: Fluency.Execution.Parsing.Entities.Argument
+  type: Class
+  source:
+    id: Argument
+    path: ''
+    startLine: 2619
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nRepresents a parsed function argument.\n"
+  example: []
+  syntax:
+    content: public abstract class Argument
+    content.vb: Public MustInherit Class Argument
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg
+  - Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Fluency.Execution.Parsing.Entities.Argument.Type
+  commentId: P:Fluency.Execution.Parsing.Entities.Argument.Type
+  id: Type
+  parent: Fluency.Execution.Parsing.Entities.Argument
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Argument.Type
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 2626
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nThe Fluency type this object is.\n"
+  example: []
+  syntax:
+    content: public abstract FluencyType Type { get; }
+    parameters: []
+    return:
+      type: FluencyType
+      description: ''
+    content.vb: Public MustOverride ReadOnly Property Type As FluencyType
+  overload: Fluency.Execution.Parsing.Entities.Argument.Type*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Fluency.Execution.Parsing.Entities.Argument.#ctor
+  commentId: M:Fluency.Execution.Parsing.Entities.Argument.#ctor
+  id: '#ctor'
+  parent: Fluency.Execution.Parsing.Entities.Argument
+  langs:
+  - csharp
+  - vb
+  name: Argument()
+  nameWithType: Argument.Argument()
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Argument()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2631
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nMake an empty argument.\n"
+  example: []
+  syntax:
+    content: protected Argument()
+    content.vb: Protected Sub New
+  overload: Fluency.Execution.Parsing.Entities.Argument.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Fluency.Execution.Parsing.Entities.Argument.TryParse(System.String,Fluency.Execution.Parsing.Entities.Argument@)
+  commentId: M:Fluency.Execution.Parsing.Entities.Argument.TryParse(System.String,Fluency.Execution.Parsing.Entities.Argument@)
+  id: TryParse(System.String,Fluency.Execution.Parsing.Entities.Argument@)
+  parent: Fluency.Execution.Parsing.Entities.Argument
+  langs:
+  - csharp
+  - vb
+  name: TryParse(String, out Argument)
+  nameWithType: Argument.TryParse(String, out Argument)
+  fullName: Fluency.Execution.Parsing.Entities.Argument.TryParse(System.String, out Fluency.Execution.Parsing.Entities.Argument)
+  type: Method
+  source:
+    id: TryParse
+    path: ''
+    startLine: 2640
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nCreate a new parsed argument from a string representing one.\nValid arguments are &quot;strings&quot;, integers, floating point numbers, and function names. \nThe special argument ... (three periods) is also valid in a Def only.\n"
+  example: []
+  syntax:
+    content: public static bool TryParse(string arg, out Argument argument)
+    parameters:
+    - id: arg
+      type: System.String
+      description: The string to be parsed.
+    - id: argument
+      type: Fluency.Execution.Parsing.Entities.Argument
+      description: The parsed result, if successful.
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryParse(arg As String, ByRef argument As Argument) As Boolean
+  overload: Fluency.Execution.Parsing.Entities.Argument.TryParse*
+  nameWithType.vb: Argument.TryParse(String, ByRef Argument)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Fluency.Execution.Parsing.Entities.Argument.TryParse(System.String, ByRef Fluency.Execution.Parsing.Entities.Argument)
+  name.vb: TryParse(String, ByRef Argument)
+- uid: Fluency.Execution.Parsing.Entities.Argument.GetAs``1
+  commentId: M:Fluency.Execution.Parsing.Entities.Argument.GetAs``1
+  id: GetAs``1
+  parent: Fluency.Execution.Parsing.Entities.Argument
+  langs:
+  - csharp
+  - vb
+  name: GetAs<T>()
+  nameWithType: Argument.GetAs<T>()
+  fullName: Fluency.Execution.Parsing.Entities.Argument.GetAs<T>()
+  type: Method
+  source:
+    id: GetAs
+    path: ''
+    startLine: 2661
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nAttempt to return this function&apos;s value as a type T.\n"
+  example: []
+  syntax:
+    content: public T GetAs<T>()
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Function GetAs(Of T) As T
+  overload: Fluency.Execution.Parsing.Entities.Argument.GetAs*
+  nameWithType.vb: Argument.GetAs(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Parsing.Entities.Argument.GetAs(Of T)()
+  name.vb: GetAs(Of T)()
+- uid: Fluency.Execution.Parsing.Entities.Argument.Value
+  commentId: M:Fluency.Execution.Parsing.Entities.Argument.Value
+  id: Value
+  parent: Fluency.Execution.Parsing.Entities.Argument
+  langs:
+  - csharp
+  - vb
+  name: Value()
+  nameWithType: Argument.Value()
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Value()
+  type: Method
+  source:
+    id: Value
+    path: ''
+    startLine: 2667
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing.Entities
+  summary: "\nGet the value this argument represents.\n"
+  example: []
+  syntax:
+    content: protected abstract object Value()
+    return:
+      type: System.Object
+      description: ''
+    content.vb: Protected MustOverride Function Value As Object
+  overload: Fluency.Execution.Parsing.Entities.Argument.Value*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: Fluency.Execution.Parsing.Entities
+  commentId: N:Fluency.Execution.Parsing.Entities
+  name: Fluency.Execution.Parsing.Entities
+  nameWithType: Fluency.Execution.Parsing.Entities
+  fullName: Fluency.Execution.Parsing.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Parsing.Entities.Argument.Type*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.Argument.Type
+  name: Type
+  nameWithType: Argument.Type
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Type
+- uid: FluencyType
+  isExternal: true
+  name: FluencyType
+  nameWithType: FluencyType
+  fullName: FluencyType
+- uid: Fluency.Execution.Parsing.Entities.Argument.#ctor*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.Argument.#ctor
+  name: Argument
+  nameWithType: Argument.Argument
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Argument
+- uid: Fluency.Execution.Parsing.Entities.Argument.TryParse*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.Argument.TryParse
+  name: TryParse
+  nameWithType: Argument.TryParse
+  fullName: Fluency.Execution.Parsing.Entities.Argument.TryParse
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Parsing.Entities.Argument
+  commentId: T:Fluency.Execution.Parsing.Entities.Argument
+  parent: Fluency.Execution.Parsing.Entities
+  name: Argument
+  nameWithType: Argument
+  fullName: Fluency.Execution.Parsing.Entities.Argument
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Fluency.Execution.Parsing.Entities.Argument.GetAs*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.Argument.GetAs
+  name: GetAs
+  nameWithType: Argument.GetAs
+  fullName: Fluency.Execution.Parsing.Entities.Argument.GetAs
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Fluency.Execution.Parsing.Entities.Argument.Value*
+  commentId: Overload:Fluency.Execution.Parsing.Entities.Argument.Value
+  name: Value
+  nameWithType: Argument.Value
+  fullName: Fluency.Execution.Parsing.Entities.Argument.Value

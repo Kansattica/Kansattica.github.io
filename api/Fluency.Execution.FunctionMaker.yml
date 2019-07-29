@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.FunctionMaker
+  commentId: T:Fluency.Execution.FunctionMaker
+  id: FunctionMaker
+  parent: Fluency.Execution
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FunctionMaker
+  nameWithType: FunctionMaker
+  fullName: Fluency.Execution.FunctionMaker
+  type: Delegate
+  source:
+    id: FunctionMaker
+    path: ''
+    startLine: 281
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution
+  syntax:
+    content: public delegate IFunction FunctionMaker(Value[] arguments);
+    parameters:
+    - id: arguments
+      type: Value[]
+    return:
+      type: IFunction
+    content.vb: Public Delegate Function FunctionMaker(arguments As Value()) As IFunction
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Fluency.Execution
+  commentId: N:Fluency.Execution
+  name: Fluency.Execution
+  nameWithType: Fluency.Execution
+  fullName: Fluency.Execution
+- uid: Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Value
+    name: Value
+    nameWithType: Value
+    fullName: Value
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Value
+    name: Value
+    nameWithType: Value
+    fullName: Value
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: IFunction
+  isExternal: true
+  name: IFunction
+  nameWithType: IFunction
+  fullName: IFunction

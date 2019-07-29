@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.ExecutableNode`1
+  commentId: T:Fluency.Execution.Functions.ExecutableNode`1
+  id: ExecutableNode`1
+  parent: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.ExecutableNode`1.Has``1
+  - Fluency.Execution.Functions.ExecutableNode`1.TypedFunction
+  langs:
+  - csharp
+  - vb
+  name: ExecutableNode<T>
+  nameWithType: ExecutableNode<T>
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>
+  type: Class
+  source:
+    id: ExecutableNode
+    path: ''
+    startLine: 301
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: 'public class ExecutableNode<T> : ExecutableNode where T : IFunction'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class ExecutableNode(Of T As IFunction)
+          Inherits ExecutableNode
+  inheritance:
+  - System.Object
+  - Fluency.Execution.Functions.ExecutableNode
+  inheritedMembers:
+  - Fluency.Execution.Functions.ExecutableNode.Function
+  - Fluency.Execution.Functions.ExecutableNode.TopAfter
+  - Fluency.Execution.Functions.ExecutableNode.BottomAfter
+  - Fluency.Execution.Functions.ExecutableNode.Tiebreaker
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: ExecutableNode(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T)
+  name.vb: ExecutableNode(Of T)
+- uid: Fluency.Execution.Functions.ExecutableNode`1.TypedFunction
+  commentId: P:Fluency.Execution.Functions.ExecutableNode`1.TypedFunction
+  id: TypedFunction
+  parent: Fluency.Execution.Functions.ExecutableNode`1
+  langs:
+  - csharp
+  - vb
+  name: TypedFunction
+  nameWithType: ExecutableNode<T>.TypedFunction
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>.TypedFunction
+  type: Property
+  source:
+    id: TypedFunction
+    path: ''
+    startLine: 303
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public T TypedFunction { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property TypedFunction As T
+  overload: Fluency.Execution.Functions.ExecutableNode`1.TypedFunction*
+  nameWithType.vb: ExecutableNode(Of T).TypedFunction
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T).TypedFunction
+- uid: Fluency.Execution.Functions.ExecutableNode`1.Has``1
+  commentId: M:Fluency.Execution.Functions.ExecutableNode`1.Has``1
+  id: Has``1
+  parent: Fluency.Execution.Functions.ExecutableNode`1
+  langs:
+  - csharp
+  - vb
+  name: Has<OutT>()
+  nameWithType: ExecutableNode<T>.Has<OutT>()
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>.Has<OutT>()
+  type: Method
+  source:
+    id: Has
+    path: ''
+    startLine: 305
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: >-
+      public OutT Has<OutT>()
+          where OutT : IFunction
+    typeParameters:
+    - id: OutT
+    return:
+      type: '{OutT}'
+    content.vb: Public Function Has(Of OutT As IFunction) As OutT
+  overload: Fluency.Execution.Functions.ExecutableNode`1.Has*
+  nameWithType.vb: ExecutableNode(Of T).Has(Of OutT)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T).Has(Of OutT)()
+  name.vb: Has(Of OutT)()
+references:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.ExecutableNode
+  commentId: T:Fluency.Execution.Functions.ExecutableNode
+  parent: Fluency.Execution.Functions
+  name: ExecutableNode
+  nameWithType: ExecutableNode
+  fullName: Fluency.Execution.Functions.ExecutableNode
+- uid: Fluency.Execution.Functions.ExecutableNode.Function
+  commentId: P:Fluency.Execution.Functions.ExecutableNode.Function
+  parent: Fluency.Execution.Functions.ExecutableNode
+  name: Function
+  nameWithType: ExecutableNode.Function
+  fullName: Fluency.Execution.Functions.ExecutableNode.Function
+- uid: Fluency.Execution.Functions.ExecutableNode.TopAfter
+  commentId: P:Fluency.Execution.Functions.ExecutableNode.TopAfter
+  parent: Fluency.Execution.Functions.ExecutableNode
+  name: TopAfter
+  nameWithType: ExecutableNode.TopAfter
+  fullName: Fluency.Execution.Functions.ExecutableNode.TopAfter
+- uid: Fluency.Execution.Functions.ExecutableNode.BottomAfter
+  commentId: P:Fluency.Execution.Functions.ExecutableNode.BottomAfter
+  parent: Fluency.Execution.Functions.ExecutableNode
+  name: BottomAfter
+  nameWithType: ExecutableNode.BottomAfter
+  fullName: Fluency.Execution.Functions.ExecutableNode.BottomAfter
+- uid: Fluency.Execution.Functions.ExecutableNode.Tiebreaker
+  commentId: P:Fluency.Execution.Functions.ExecutableNode.Tiebreaker
+  parent: Fluency.Execution.Functions.ExecutableNode
+  name: Tiebreaker
+  nameWithType: ExecutableNode.Tiebreaker
+  fullName: Fluency.Execution.Functions.ExecutableNode.Tiebreaker
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions.ExecutableNode`1.TypedFunction*
+  commentId: Overload:Fluency.Execution.Functions.ExecutableNode`1.TypedFunction
+  name: TypedFunction
+  nameWithType: ExecutableNode<T>.TypedFunction
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>.TypedFunction
+  nameWithType.vb: ExecutableNode(Of T).TypedFunction
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T).TypedFunction
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Fluency.Execution.Functions.ExecutableNode`1.Has*
+  commentId: Overload:Fluency.Execution.Functions.ExecutableNode`1.Has
+  name: Has
+  nameWithType: ExecutableNode<T>.Has
+  fullName: Fluency.Execution.Functions.ExecutableNode<T>.Has
+  nameWithType.vb: ExecutableNode(Of T).Has
+  fullName.vb: Fluency.Execution.Functions.ExecutableNode(Of T).Has
+- uid: '{OutT}'
+  commentId: '!:OutT'
+  definition: OutT
+  name: OutT
+  nameWithType: OutT
+  fullName: OutT
+- uid: OutT
+  commentId: '!:OutT'
+  name: OutT
+  nameWithType: OutT
+  fullName: OutT

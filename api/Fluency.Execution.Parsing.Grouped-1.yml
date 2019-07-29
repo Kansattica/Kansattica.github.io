@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.Grouped`1
+  commentId: T:Fluency.Execution.Parsing.Grouped`1
+  id: Grouped`1
+  parent: Fluency.Execution.Parsing
+  children:
+  - Fluency.Execution.Parsing.Grouped`1.#ctor(List{`0},System.Int32,System.Int32)
+  - Fluency.Execution.Parsing.Grouped`1.Indexes
+  - Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator
+  - Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator
+  langs:
+  - csharp
+  - vb
+  name: Grouped<TSource>
+  nameWithType: Grouped<TSource>
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>
+  type: Class
+  source:
+    id: Grouped
+    path: ''
+    startLine: 2088
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nRepresents a group of elements from <xref href=\"Fluency.Execution.Parsing.ParseExtensions.GroupUntil%60%601(IEnumerable%7b%60%600%7d%2cFunc%7b%60%600%2cSystem.Boolean%7d%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"Fluency.Execution.Parsing.ParseExtensions.GroupWhile%60%601(IEnumerable%7b%60%600%7d%2cFunc%7b%60%600%2cSystem.Boolean%2cFluency.Execution.Parsing.GroupWhileAction%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class Grouped<TSource> : IEnumerable<TSource>'
+    typeParameters:
+    - id: TSource
+      description: ''
+    content.vb: >-
+      Public Class Grouped(Of TSource)
+          Inherits IEnumerable(Of TSource)
+  inheritance:
+  - System.Object
+  nameWithType.vb: Grouped(Of TSource)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource)
+  name.vb: Grouped(Of TSource)
+- uid: Fluency.Execution.Parsing.Grouped`1.Indexes
+  commentId: P:Fluency.Execution.Parsing.Grouped`1.Indexes
+  id: Indexes
+  parent: Fluency.Execution.Parsing.Grouped`1
+  langs:
+  - csharp
+  - vb
+  name: Indexes
+  nameWithType: Grouped<TSource>.Indexes
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Indexes
+  type: Property
+  source:
+    id: Indexes
+    path: ''
+    startLine: 2094
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nThe inclusive range of indexes this group was taken from.\n"
+  example: []
+  syntax:
+    content: public Range Indexes { get; set; }
+    parameters: []
+    return:
+      type: Range
+      description: ''
+    content.vb: Public Property Indexes As Range
+  overload: Fluency.Execution.Parsing.Grouped`1.Indexes*
+  nameWithType.vb: Grouped(Of TSource).Indexes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Indexes
+- uid: Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  isEii: true
+  parent: Fluency.Execution.Parsing.Grouped`1
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable.GetEnumerator()
+  nameWithType: Grouped<TSource>.IEnumerable.GetEnumerator()
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    id: System.Collections.IEnumerable.GetEnumerator
+    path: ''
+    startLine: 2096
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+  overload: Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator*
+  nameWithType.vb: Grouped(Of TSource).System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+- uid: Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator
+  commentId: M:Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator
+  id: System#Collections#Generic#IEnumerable{TSource}#GetEnumerator
+  isEii: true
+  parent: Fluency.Execution.Parsing.Grouped`1
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable<TSource>.GetEnumerator()
+  nameWithType: Grouped<TSource>.IEnumerable<TSource>.GetEnumerator()
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+  type: Method
+  source:
+    id: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+    path: ''
+    startLine: 2100
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  syntax:
+    content: IEnumerator<TSource> IEnumerable<TSource>.GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{{TSource}}
+    content.vb: Function System.Collections.Generic.IEnumerable<TSource>.GetEnumerator As IEnumerator(Of TSource) Implements IEnumerable(Of TSource).GetEnumerator
+  overload: Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator*
+  nameWithType.vb: Grouped(Of TSource).System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+  name.vb: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+- uid: Fluency.Execution.Parsing.Grouped`1.#ctor(List{`0},System.Int32,System.Int32)
+  commentId: M:Fluency.Execution.Parsing.Grouped`1.#ctor(List{`0},System.Int32,System.Int32)
+  id: '#ctor(List{`0},System.Int32,System.Int32)'
+  parent: Fluency.Execution.Parsing.Grouped`1
+  langs:
+  - csharp
+  - vb
+  name: Grouped(List<TSource>, Int32, Int32)
+  nameWithType: Grouped<TSource>.Grouped(List<TSource>, Int32, Int32)
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Grouped(List<TSource>, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2112
+  assemblies:
+  - cs.temp.dll
+  namespace: Fluency.Execution.Parsing
+  summary: "\nConstruct a new group.\n"
+  example: []
+  syntax:
+    content: public Grouped(List<TSource> source, int startIndex, int endIndex)
+    parameters:
+    - id: source
+      type: List{{TSource}}
+      description: ''
+    - id: startIndex
+      type: System.Int32
+      description: ''
+    - id: endIndex
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(source As List(Of TSource), startIndex As Integer, endIndex As Integer)
+  overload: Fluency.Execution.Parsing.Grouped`1.#ctor*
+  nameWithType.vb: Grouped(Of TSource).Grouped(List(Of TSource), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Grouped(List(Of TSource), System.Int32, System.Int32)
+  name.vb: Grouped(List(Of TSource), Int32, Int32)
+references:
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  isExternal: true
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  isExternal: true
+- uid: Fluency.Execution.Parsing
+  commentId: N:Fluency.Execution.Parsing
+  name: Fluency.Execution.Parsing
+  nameWithType: Fluency.Execution.Parsing
+  fullName: Fluency.Execution.Parsing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Parsing.Grouped`1.Indexes*
+  commentId: Overload:Fluency.Execution.Parsing.Grouped`1.Indexes
+  name: Indexes
+  nameWithType: Grouped<TSource>.Indexes
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Indexes
+  nameWithType.vb: Grouped(Of TSource).Indexes
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Indexes
+- uid: Range
+  isExternal: true
+  name: Range
+  nameWithType: Range
+  fullName: Range
+- uid: Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator*
+  commentId: Overload:Fluency.Execution.Parsing.Grouped`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator
+  nameWithType: Grouped<TSource>.IEnumerable.GetEnumerator
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: Grouped(Of TSource).System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).System.Collections.IEnumerable.GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator*
+  commentId: Overload:Fluency.Execution.Parsing.Grouped`1.System#Collections#Generic#IEnumerable{TSource}#GetEnumerator
+  name: IEnumerable<TSource>.GetEnumerator
+  nameWithType: Grouped<TSource>.IEnumerable<TSource>.GetEnumerator
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+  nameWithType.vb: Grouped(Of TSource).System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+  name.vb: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{{TSource}}
+  commentId: T:System.Collections.Generic.IEnumerator{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  name: IEnumerator<TSource>
+  nameWithType: IEnumerator<TSource>
+  fullName: System.Collections.Generic.IEnumerator<TSource>
+  nameWithType.vb: IEnumerator(Of TSource)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of TSource)
+  name.vb: IEnumerator(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Fluency.Execution.Parsing.Grouped`1.#ctor*
+  commentId: Overload:Fluency.Execution.Parsing.Grouped`1.#ctor
+  name: Grouped
+  nameWithType: Grouped<TSource>.Grouped
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Grouped
+  nameWithType.vb: Grouped(Of TSource).Grouped
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Grouped
+- uid: List{{TSource}}
+  commentId: '!:List{`0}'
+  definition: List`1
+  name: List<TSource>
+  nameWithType: List<TSource>
+  fullName: List<TSource>
+  nameWithType.vb: List(Of TSource)
+  fullName.vb: List(Of TSource)
+  name.vb: List(Of TSource)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: List`1
+  commentId: '!:List`1'
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
