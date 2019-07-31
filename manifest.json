@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "ZoSoI7RyNK0TXDtaT0roAA=="
+          "hash": "66S2mBhBWx/Yly0j2UrQfg=="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dissect.html",
-          "hash": "RoURamezQwvcd9lXiERrUg=="
+          "hash": "dHOecYoh4q4c24TQM+USvw=="
         }
       },
       "is_incremental": true,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/first.html",
-          "hash": "apuBQufAMSXOi86+AdCVCw=="
+          "hash": "U8PyKBrgUmU68QxL67xNaw=="
         }
       },
       "is_incremental": true,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "zTda8dVM7e/W30zRFacDoQ=="
+          "hash": "I7lvdlsoHYEboKkt52CZ2A=="
         }
       },
       "is_incremental": true,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/setup.html",
-          "hash": "jalwY5DSgtl/cs6frBpctg=="
+          "hash": "IR+4nRJ8hlSAYp98tekZjA=="
         }
       },
       "is_incremental": true,
@@ -905,14 +905,14 @@
     },
     {
       "log_codes": [
-        "UidNotFound"
+        "InvalidFileLink"
       ],
       "type": "Conceptual",
       "source_relative_path": "articles/useful.md",
       "output": {
         ".html": {
           "relative_path": "articles/useful.html",
-          "hash": "/M1CT4Teoe52JHAoF2+qyA=="
+          "hash": "4E4W0IhkXuQ40SxdSn9/uw=="
         }
       },
       "is_incremental": true,
@@ -931,14 +931,14 @@
     },
     {
       "log_codes": [
-        "UidNotFound"
+        "InvalidFileLink"
       ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "4ZsPx8cwqinw+c02uj9Pfw=="
+          "hash": "UEtuPe75mGPkn1yvfroNPQ=="
         }
       },
       "is_incremental": true,
@@ -966,9 +966,9 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -979,9 +979,9 @@
           "total_file_count": 7,
           "skipped_file_count": 7
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
