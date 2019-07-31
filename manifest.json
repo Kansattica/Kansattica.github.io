@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Common.FluencyType.html",
-          "hash": "t7ueMxZleomdx9f7feKcfg=="
+          "hash": "ss4fs6LwSCUSBjTtqxHC/g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Exceptions.ExecutionException.html",
-          "hash": "drhDKlZcxZ3iQmMq3ZAV8A=="
+          "hash": "QmkPLSBapP/gCGOPExw6nA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Extensions.ExecutionExtensions.html",
-          "hash": "crY2pBQS9/ld/xryJMl0Qg=="
+          "hash": "v6CVCwj4y1PyNxI55nO8NQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.FunctionMaker.html",
-          "hash": "xERltfgXXW8rfISNbsGu/w=="
+          "hash": "85BqV9fcAMQM73CJEtxDVA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Com.html",
-          "hash": "AxvvA0yQzzEZgufFXSa6Zw=="
+          "hash": "pyUM+UIZDktvFFkpuobJoA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Comment.html",
-          "hash": "YaKyxZkKWQL6SrUaHdWHYA=="
+          "hash": "8fLDvKE7o1qdJY7TKBf6+w=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Const.html",
-          "hash": "pflbk+C1wK7ccVAEUJIGXQ=="
+          "hash": "71Nr79RttEAc5H/3m1RFTQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Drain.html",
-          "hash": "WppibUe62z+qTSkzmslpzQ=="
+          "hash": "/w1tqs6Y42gJs7Y0nrecRw=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Dup.html",
-          "hash": "E8512KJkPPsT2q0deMOq6Q=="
+          "hash": "PK2coUFLxbpT/9epcphTdA=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Duplicate.html",
-          "hash": "ZsfNRloHqDva/Vbnu6oE6Q=="
+          "hash": "h7MhCXJBqWxzdAgTynnB1Q=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Factory.BuiltInFactory.html",
-          "hash": "/1v3o8fk2f4evQjFIej+Ig=="
+          "hash": "kN5+2AefjqyKBhsyetWBiw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.First.html",
-          "hash": "XEov1sZPkQUvxmw7Mnldzw=="
+          "hash": "3YanELRdtjgLA2PGU2NVcQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.FirstN.html",
-          "hash": "cmVVEex/AQGpO41yLMUvPw=="
+          "hash": "div5nDG3h1JtU9gosorPUQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.I.html",
-          "hash": "yEw2OUeNgCEtevRu+8HzHA=="
+          "hash": "n3CGRzmUzC2Zpppya3HvGQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.MergeBottom.html",
-          "hash": "G+PoXMo53rADRx/oVpa2SA=="
+          "hash": "MyjBni8s1YaMmSaCWqbvTg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.MergeIf.html",
-          "hash": "uTEwzvmlzRMhJk+7nlSmrg=="
+          "hash": "YtwwUs3ujKjK63KLrfRfEA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.MergeTop.html",
-          "hash": "ATvQ1D7PhvBgHCFYJjNZuw=="
+          "hash": "MouIxiHNbP0o19CZQoiH8g=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.SwitchIn.html",
-          "hash": "oYg8L3i1bgfiYK9IIhpnHg=="
+          "hash": "umrsxzqrixBIClK9i/swtg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.SwitchOut.html",
-          "hash": "CGvm+2HEbj3lS5/Vs6eGzw=="
+          "hash": "ZINCvL7OenbVAMnKNMibcA=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Unzip.html",
-          "hash": "Bs8q+pOKyHMXpCTsgI7oEQ=="
+          "hash": "yInyZP9DisaZfULm42SN2A=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.WrapBinary-3.html",
-          "hash": "5kr0wbHKNYJo9kPaN6TDjg=="
+          "hash": "7puOEeDUORBrhr827kt4Kw=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.WrapBinaryFold-1.html",
-          "hash": "iLGSqbZ2EXaEcaHJZYYHuw=="
+          "hash": "ZJsh+CEL/SmAuOPMJF6KYA=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput-3.html",
-          "hash": "+i/XVFGdYjmpriV1f2lb1w=="
+          "hash": "XNy0zO4eDzUKlH9MG+lmKQ=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs-4.html",
-          "hash": "CyaoR8u1IvAQWhMK3iwrmQ=="
+          "hash": "WIpB6GhBHLJvh9JFaIzquw=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.WrapUnary-2.html",
-          "hash": "RgRTfMYLO/WTn5GMX2hu1g=="
+          "hash": "iwuN3B61gJQxwMfb+DT4Kw=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.BuiltIn.Zip.html",
-          "hash": "/Rt8m6dFjhEWZ4/q2+eelQ=="
+          "hash": "U481dFenO9bGCW2VmzI8uA=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.ExecutableNode-1.html",
-          "hash": "kDdSmcrBFnBmLbCSrDIR8g=="
+          "hash": "aJbOKVaKcvcKChxWQkuaCA=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.ExecutableNode.html",
-          "hash": "kEuHEavHElpXTcBzhqSFRg=="
+          "hash": "yZEWeRkSyuLEw4K0NfYKHw=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.GetNext.html",
-          "hash": "PDLm+LBpdUeHo7y/6DDPJg=="
+          "hash": "lP0XL/PX+s+hCmTMhusdeg=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.IBottomIn.html",
-          "hash": "w4qHqWQlqzYHsF0JobDXHw=="
+          "hash": "RcuwkXk0CFzxZdKlAYU3aQ=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.IBottomOut.html",
-          "hash": "q2P/H0d8yfWRORBpM5ljlw=="
+          "hash": "njfEnaBFLjuHxcY7UbNhtw=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.IFunction.html",
-          "hash": "7xOdTUn/Q0W5zEhnljT+MA=="
+          "hash": "I+nu2zKOeJ2JarZEKWom7Q=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.ITopIn.html",
-          "hash": "gkdhvbNsu7/cNScOWuhfyQ=="
+          "hash": "RpDmOP5uEaLe0UtRXeSuUw=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.ITopOut.html",
-          "hash": "o4zfSyDB6wSsEH5bcKWJoA=="
+          "hash": "/3sDTvb6zG/Gx0QeV/eFOA=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.UserDefinedFunction.html",
-          "hash": "BU72hBaIwFxyg9wr7LvIfg=="
+          "hash": "YBIf59x5hsye6N9u5Y6xEw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.UserFunctionStub.html",
-          "hash": "6s2zqEqH/3RAEi7SEz7gFA=="
+          "hash": "1rRJvp0gJ8dg1mgCIJdrIA=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Functions.Value.html",
-          "hash": "cQFmko6TAzMpnzRtB60vDA=="
+          "hash": "tIgC0Ju0/yL+PUK1sDQfzA=="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.IFunctionResolver.html",
-          "hash": "Y77XaKBGm4UHgpULKXmFCA=="
+          "hash": "ax0aE0/5DP3Md0j1G0dhdA=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Interpreter.html",
-          "hash": "ovPWYLlpympUXtpCVvVIWQ=="
+          "hash": "wokEog9ZbIMqkGjmX5AB6g=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.Argument.html",
-          "hash": "EV1syOYRIkbjmo29QA7mLQ=="
+          "hash": "yXpjYTHuk5U+1oi/JwOBSA=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.ArgumentTypes.BoolArg.html",
-          "hash": "Thw+6cZXlpNWnE681/yKXw=="
+          "hash": "aDahgQY9JUznLj52vBVsnw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.ArgumentTypes.DoubleArg.html",
-          "hash": "G/NEOY2KtuLaYTKAg7ia8Q=="
+          "hash": "5Et7rRDse7XDoQLgCaMxEg=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg.html",
-          "hash": "ngXG0YqbmplCJa/UlAXI1A=="
+          "hash": "UxD91jLSOGo1IK43fwAafw=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.ArgumentTypes.IntArg.html",
-          "hash": "/WFdvsAv6ufSlScR93Pc7w=="
+          "hash": "ci/JoIySx2arx7bDQJNXsQ=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.ArgumentTypes.StringArg.html",
-          "hash": "2nxUNpUqSZLC07SfoNeLSQ=="
+          "hash": "0XttxkcIa8qoWRH4yDQySg=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.html",
-          "hash": "ScDwSLWceQHKBxCrQ6d77Q=="
+          "hash": "9vVrQBItaHHGE5e6wqX01w=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionNode.html",
-          "hash": "b/wyFOGXLTGWVlP7vqxiOA=="
+          "hash": "KuqZsti8bFupX+Q/pecnyA=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.FunctionToken.html",
-          "hash": "pKJlEpSegK6zPsVle/x81A=="
+          "hash": "7QWv8hTl+ChbrA+QTKaFbg=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.Line.html",
-          "hash": "OT++OSuZzsfmNS7VGDlVIw=="
+          "hash": "3+EEzzSKNhftBgXihazdVA=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Entities.Range.html",
-          "hash": "52fST2LmVi+/AIpDivM+TA=="
+          "hash": "35xgZQjSXKhEeffrnWDOig=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Exceptions.ParseException.html",
-          "hash": "QJxmd1ezSbzTzSg0ocGhiA=="
+          "hash": "70Qy282qxJIVugn7ZSfleQ=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.GroupWhileAction.html",
-          "hash": "ylLv75lHA025prUzMVWBDw=="
+          "hash": "BPn3Hj888IB1gaPZhXWkoQ=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Grouped-1.html",
-          "hash": "1I2PjLifE9/mRPZ881m5pA=="
+          "hash": "/n6xCr7z0WVDGEkde6C20A=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.ParseExtensions.html",
-          "hash": "31QsaNetW2aNtvtpBWk/HA=="
+          "hash": "fSDwJ+ohWUdKqm23gGgGVQ=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.ParsedCallback.html",
-          "hash": "wQcN7qzuKOZoVdS6BOHe1Q=="
+          "hash": "uylDZTPWV9DK5rx2w+fFzA=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fluency.Execution.Parsing.Parser.html",
-          "hash": "yN9xFfzUkaSUybbInq8byQ=="
+          "hash": "wFvN3dacv1vZaN6SYgxEsQ=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "iQwMAXs7cq4cVSm71UkNWQ=="
+          "hash": "1vBuYA77g89NS2rIGKzQMQ=="
         }
       },
       "is_incremental": false,
@@ -849,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dissect.html",
-          "hash": "98wYomdsreuBzhZvfK9U4Q=="
+          "hash": "0HCJYBNrYOmbrfQYcMctlQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +861,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/first.html",
-          "hash": "gUZEC0X9NT4HX7disbPI5Q=="
+          "hash": "g15eKp4K5F23AlaQQkEDGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -873,10 +873,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "jA22OTK0gNEaDQ3RXsnCBw=="
+          "hash": "P582s9au93WyHF/bBkSy+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -885,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/setup.html",
-          "hash": "op6DkeQ4sNAp1Gk9tMWeXA=="
+          "hash": "SPfS2WKg2PRv6FwKQMkzhQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -905,7 +905,6 @@
     },
     {
       "log_codes": [
-        "UidNotFound",
         "InvalidFileLink"
       ],
       "type": "Conceptual",
@@ -913,10 +912,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/useful.html",
-          "hash": "lyd4Jp7EsXsw1o9Gq4nVeQ=="
+          "hash": "eqpuIRKUfr60UUYQ95+kPA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -939,10 +938,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "rzeq9eIi+2y/WoLlmuKTVw=="
+          "hash": "7OqHa0femEGKP3c8z8G4yw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -961,12 +960,26 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 68,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -974,32 +987,19 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 7
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
-          "incrementalPhase": "build",
-          "total_file_count": 68,
-          "skipped_file_count": 0
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
