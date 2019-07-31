@@ -1,0 +1,949 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.UserDefinedFunction
+  commentId: T:Fluency.Execution.Functions.UserDefinedFunction
+  id: UserDefinedFunction
+  parent: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.UserDefinedFunction.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+  - Fluency.Execution.Functions.UserDefinedFunction.Arguments
+  - Fluency.Execution.Functions.UserDefinedFunction.Bottom
+  - Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+  - Fluency.Execution.Functions.UserDefinedFunction.Name
+  - Fluency.Execution.Functions.UserDefinedFunction.Top
+  - Fluency.Execution.Functions.UserDefinedFunction.TopInput
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFunction
+  nameWithType: UserDefinedFunction
+  fullName: Fluency.Execution.Functions.UserDefinedFunction
+  type: Class
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: UserDefinedFunction
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 10
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: 'public class UserDefinedFunction : ITopIn, ITopOut, IBottomIn, IBottomOut, IFunction'
+    content.vb: >-
+      Public Class UserDefinedFunction
+          Implements ITopIn, ITopOut, IBottomIn, IBottomOut, IFunction
+  inheritance:
+  - System.Object
+  implements:
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.IBottomIn
+  - Fluency.Execution.Functions.IBottomOut
+  - Fluency.Execution.Functions.IFunction
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Name
+  commentId: P:Fluency.Execution.Functions.UserDefinedFunction.Name
+  id: Name
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UserDefinedFunction.Name
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Name
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Name
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 12
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fluency.Execution.Functions.UserDefinedFunction.Name*
+  implements:
+  - Fluency.Execution.Functions.IFunction.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Arguments
+  commentId: P:Fluency.Execution.Functions.UserDefinedFunction.Arguments
+  id: Arguments
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: Arguments
+  nameWithType: UserDefinedFunction.Arguments
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Arguments
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Arguments
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 13
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public FunctionArg[] Arguments { get; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg[]
+    content.vb: Public ReadOnly Property Arguments As FunctionArg()
+  overload: Fluency.Execution.Functions.UserDefinedFunction.Arguments*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Functions.UserDefinedFunction.TopInput
+  commentId: P:Fluency.Execution.Functions.UserDefinedFunction.TopInput
+  id: TopInput
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: TopInput
+  nameWithType: UserDefinedFunction.TopInput
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.TopInput
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: TopInput
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 16
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public GetNext TopInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property TopInput As GetNext
+  overload: Fluency.Execution.Functions.UserDefinedFunction.TopInput*
+  implements:
+  - Fluency.Execution.Functions.ITopIn.TopInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+  commentId: P:Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+  id: BottomInput
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: BottomInput
+  nameWithType: UserDefinedFunction.BottomInput
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: BottomInput
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 17
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public GetNext BottomInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property BottomInput As GetNext
+  overload: Fluency.Execution.Functions.UserDefinedFunction.BottomInput*
+  implements:
+  - Fluency.Execution.Functions.IBottomIn.BottomInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Top
+  commentId: M:Fluency.Execution.Functions.UserDefinedFunction.Top
+  id: Top
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: Top()
+  nameWithType: UserDefinedFunction.Top()
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Top()
+  type: Method
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Top
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 30
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public Value Top()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Top As Value
+  overload: Fluency.Execution.Functions.UserDefinedFunction.Top*
+  implements:
+  - Fluency.Execution.Functions.ITopOut.Top
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Bottom
+  commentId: M:Fluency.Execution.Functions.UserDefinedFunction.Bottom
+  id: Bottom
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: Bottom()
+  nameWithType: UserDefinedFunction.Bottom()
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Bottom()
+  type: Method
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Bottom
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 35
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public Value Bottom()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Bottom As Value
+  overload: Fluency.Execution.Functions.UserDefinedFunction.Bottom*
+  implements:
+  - Fluency.Execution.Functions.IBottomOut.Bottom
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Functions.UserDefinedFunction.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+  commentId: M:Fluency.Execution.Functions.UserDefinedFunction.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+  id: '#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)'
+  parent: Fluency.Execution.Functions.UserDefinedFunction
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFunction(FunctionGraph, Value[], IFunctionResolver)
+  nameWithType: UserDefinedFunction.UserDefinedFunction(FunctionGraph, Value[], IFunctionResolver)
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value[], Fluency.Execution.IFunctionResolver)
+  type: Constructor
+  source:
+    remote:
+      path: Execution/Execution/Functions/UserDefinedFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: .ctor
+    path: ../Execution/Execution/Functions/UserDefinedFunction.cs
+    startLine: 89
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  syntax:
+    content: public UserDefinedFunction(FunctionGraph graph, Value[] arguments, IFunctionResolver linker)
+    parameters:
+    - id: graph
+      type: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
+    - id: arguments
+      type: Fluency.Execution.Functions.Value[]
+    - id: linker
+      type: Fluency.Execution.IFunctionResolver
+    content.vb: Public Sub New(graph As FunctionGraph, arguments As Value(), linker As IFunctionResolver)
+  overload: Fluency.Execution.Functions.UserDefinedFunction.#ctor*
+  nameWithType.vb: UserDefinedFunction.UserDefinedFunction(FunctionGraph, Value(), IFunctionResolver)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value(), Fluency.Execution.IFunctionResolver)
+  name.vb: UserDefinedFunction(FunctionGraph, Value(), IFunctionResolver)
+references:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  parent: Fluency.Execution.Functions
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+- uid: Fluency.Execution.Functions.IBottomOut
+  commentId: T:Fluency.Execution.Functions.IBottomOut
+  parent: Fluency.Execution.Functions
+  name: IBottomOut
+  nameWithType: IBottomOut
+  fullName: Fluency.Execution.Functions.IBottomOut
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  parent: Fluency.Execution.Extensions.ExecutionExtensions
+  definition: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  name: Is<T>(String)
+  nameWithType: ExecutionExtensions.Is<T>(String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(System.String)
+  name.vb: Is(Of T)(String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  isExternal: true
+  name: Is<T>(IFunction, String)
+  nameWithType: ExecutionExtensions.Is<T>(IFunction, String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(Fluency.Execution.Functions.IFunction, System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(IFunction, String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(Fluency.Execution.Functions.IFunction, System.String)
+  name.vb: Is(Of T)(IFunction, String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Extensions.ExecutionExtensions
+  commentId: T:Fluency.Execution.Extensions.ExecutionExtensions
+  parent: Fluency.Execution.Extensions
+  name: ExecutionExtensions
+  nameWithType: ExecutionExtensions
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions
+- uid: Fluency.Execution.Extensions
+  commentId: N:Fluency.Execution.Extensions
+  name: Fluency.Execution.Extensions
+  nameWithType: Fluency.Execution.Extensions
+  fullName: Fluency.Execution.Extensions
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Name*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.Name
+  name: Name
+  nameWithType: UserDefinedFunction.Name
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Name
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Arguments*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.Arguments
+  name: Arguments
+  nameWithType: UserDefinedFunction.Arguments
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Arguments
+- uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg[]
+  isExternal: true
+  name: FunctionArg[]
+  nameWithType: FunctionArg[]
+  fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg[]
+  nameWithType.vb: FunctionArg()
+  fullName.vb: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg()
+  name.vb: FunctionArg()
+  spec.csharp:
+  - uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+    name: FunctionArg
+    nameWithType: FunctionArg
+    fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+    name: FunctionArg
+    nameWithType: FunctionArg
+    fullName: Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.Functions.UserDefinedFunction.TopInput*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.TopInput
+  name: TopInput
+  nameWithType: UserDefinedFunction.TopInput
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.TopInput
+- uid: Fluency.Execution.Functions.ITopIn.TopInput
+  commentId: P:Fluency.Execution.Functions.ITopIn.TopInput
+  parent: Fluency.Execution.Functions.ITopIn
+  name: TopInput
+  nameWithType: ITopIn.TopInput
+  fullName: Fluency.Execution.Functions.ITopIn.TopInput
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext
+- uid: Fluency.Execution.Functions.UserDefinedFunction.BottomInput*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+  name: BottomInput
+  nameWithType: UserDefinedFunction.BottomInput
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.BottomInput
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.IBottomIn.BottomInput
+  parent: Fluency.Execution.Functions.IBottomIn
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Top*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.Top
+  name: Top
+  nameWithType: UserDefinedFunction.Top
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Top
+- uid: Fluency.Execution.Functions.ITopOut.Top
+  commentId: M:Fluency.Execution.Functions.ITopOut.Top
+  parent: Fluency.Execution.Functions.ITopOut
+  name: Top()
+  nameWithType: ITopOut.Top()
+  fullName: Fluency.Execution.Functions.ITopOut.Top()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value
+- uid: Fluency.Execution.Functions.UserDefinedFunction.Bottom*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.Bottom
+  name: Bottom
+  nameWithType: UserDefinedFunction.Bottom
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.Bottom
+- uid: Fluency.Execution.Functions.IBottomOut.Bottom
+  commentId: M:Fluency.Execution.Functions.IBottomOut.Bottom
+  parent: Fluency.Execution.Functions.IBottomOut
+  name: Bottom()
+  nameWithType: IBottomOut.Bottom()
+  fullName: Fluency.Execution.Functions.IBottomOut.Bottom()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.IBottomOut.Bottom
+    name: Bottom
+    nameWithType: IBottomOut.Bottom
+    fullName: Fluency.Execution.Functions.IBottomOut.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.IBottomOut.Bottom
+    name: Bottom
+    nameWithType: IBottomOut.Bottom
+    fullName: Fluency.Execution.Functions.IBottomOut.Bottom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.UserDefinedFunction.#ctor*
+  commentId: Overload:Fluency.Execution.Functions.UserDefinedFunction.#ctor
+  name: UserDefinedFunction
+  nameWithType: UserDefinedFunction.UserDefinedFunction
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
+  commentId: T:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
+  parent: Fluency.Execution.Parsing.Entities.FunctionGraph
+  name: FunctionGraph
+  nameWithType: FunctionGraph
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
+- uid: Fluency.Execution.Functions.Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Fluency.Execution.Functions.Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Fluency.Execution.Functions.Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.IFunctionResolver
+  commentId: T:Fluency.Execution.IFunctionResolver
+  parent: Fluency.Execution
+  name: IFunctionResolver
+  nameWithType: IFunctionResolver
+  fullName: Fluency.Execution.IFunctionResolver
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph
+  commentId: N:Fluency.Execution.Parsing.Entities.FunctionGraph
+  name: Fluency.Execution.Parsing.Entities.FunctionGraph
+  nameWithType: Fluency.Execution.Parsing.Entities.FunctionGraph
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph
+- uid: Fluency.Execution
+  commentId: N:Fluency.Execution
+  name: Fluency.Execution
+  nameWithType: Fluency.Execution
+  fullName: Fluency.Execution

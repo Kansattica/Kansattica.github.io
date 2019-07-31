@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf
+  commentId: T:Fluency.Execution.Functions.BuiltIn.MergeIf
+  id: MergeIf
+  parent: Fluency.Execution.Functions.BuiltIn
+  children:
+  - Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+  - Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+  - Fluency.Execution.Functions.BuiltIn.MergeIf.Top
+  - Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+  langs:
+  - csharp
+  - vb
+  name: MergeIf
+  nameWithType: MergeIf
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf
+  type: Class
+  source:
+    remote:
+      path: Execution/Execution/Functions/BuiltIn/MergeIf.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: MergeIf
+    path: ../Execution/Execution/Functions/BuiltIn/MergeIf.cs
+    startLine: 11
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions.BuiltIn
+  summary: "\nReads one element from the top pipeline. If true, put everything from the bottom pipeline onto the top. Otherwise, return nothing.\n"
+  example: []
+  syntax:
+    content: 'public class MergeIf : ITopIn, IBottomIn, ITopOut, IFunction'
+    content.vb: >-
+      Public Class MergeIf
+          Implements ITopIn, IBottomIn, ITopOut, IFunction
+  inheritance:
+  - System.Object
+  implements:
+  - Fluency.Execution.Functions.ITopIn
+  - Fluency.Execution.Functions.IBottomIn
+  - Fluency.Execution.Functions.ITopOut
+  - Fluency.Execution.Functions.IFunction
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+  commentId: P:Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+  id: Name
+  parent: Fluency.Execution.Functions.BuiltIn.MergeIf
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MergeIf.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/BuiltIn/MergeIf.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Name
+    path: ../Execution/Execution/Functions/BuiltIn/MergeIf.cs
+    startLine: 13
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fluency.Execution.Functions.BuiltIn.MergeIf.Name*
+  implements:
+  - Fluency.Execution.Functions.IFunction.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+  id: TopInput
+  parent: Fluency.Execution.Functions.BuiltIn.MergeIf
+  langs:
+  - csharp
+  - vb
+  name: TopInput
+  nameWithType: MergeIf.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/BuiltIn/MergeIf.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: TopInput
+    path: ../Execution/Execution/Functions/BuiltIn/MergeIf.cs
+    startLine: 15
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext TopInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property TopInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput*
+  implements:
+  - Fluency.Execution.Functions.ITopIn.TopInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+  commentId: P:Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+  id: BottomInput
+  parent: Fluency.Execution.Functions.BuiltIn.MergeIf
+  langs:
+  - csharp
+  - vb
+  name: BottomInput
+  nameWithType: MergeIf.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/BuiltIn/MergeIf.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: BottomInput
+    path: ../Execution/Execution/Functions/BuiltIn/MergeIf.cs
+    startLine: 16
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public GetNext BottomInput { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Functions.GetNext
+    content.vb: Public WriteOnly Property BottomInput As GetNext
+  overload: Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput*
+  implements:
+  - Fluency.Execution.Functions.IBottomIn.BottomInput
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.Top
+  commentId: M:Fluency.Execution.Functions.BuiltIn.MergeIf.Top
+  id: Top
+  parent: Fluency.Execution.Functions.BuiltIn.MergeIf
+  langs:
+  - csharp
+  - vb
+  name: Top()
+  nameWithType: MergeIf.Top()
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.Top()
+  type: Method
+  source:
+    remote:
+      path: Execution/Execution/Functions/BuiltIn/MergeIf.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Top
+    path: ../Execution/Execution/Functions/BuiltIn/MergeIf.cs
+    startLine: 32
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions.BuiltIn
+  syntax:
+    content: public Value Top()
+    return:
+      type: Fluency.Execution.Functions.Value
+    content.vb: Public Function Top As Value
+  overload: Fluency.Execution.Functions.BuiltIn.MergeIf.Top*
+  implements:
+  - Fluency.Execution.Functions.ITopOut.Top
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Fluency.Execution.Functions.BuiltIn
+  commentId: N:Fluency.Execution.Functions.BuiltIn
+  name: Fluency.Execution.Functions.BuiltIn
+  nameWithType: Fluency.Execution.Functions.BuiltIn
+  fullName: Fluency.Execution.Functions.BuiltIn
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Fluency.Execution.Functions.ITopIn
+  commentId: T:Fluency.Execution.Functions.ITopIn
+  parent: Fluency.Execution.Functions
+  name: ITopIn
+  nameWithType: ITopIn
+  fullName: Fluency.Execution.Functions.ITopIn
+- uid: Fluency.Execution.Functions.IBottomIn
+  commentId: T:Fluency.Execution.Functions.IBottomIn
+  parent: Fluency.Execution.Functions
+  name: IBottomIn
+  nameWithType: IBottomIn
+  fullName: Fluency.Execution.Functions.IBottomIn
+- uid: Fluency.Execution.Functions.ITopOut
+  commentId: T:Fluency.Execution.Functions.ITopOut
+  parent: Fluency.Execution.Functions
+  name: ITopOut
+  nameWithType: ITopOut
+  fullName: Fluency.Execution.Functions.ITopOut
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  parent: Fluency.Execution.Extensions.ExecutionExtensions
+  definition: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  name: Is<T>(String)
+  nameWithType: ExecutionExtensions.Is<T>(String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(System.String)
+  name.vb: Is(Of T)(String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  isExternal: true
+  name: Is<T>(IFunction, String)
+  nameWithType: ExecutionExtensions.Is<T>(IFunction, String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(Fluency.Execution.Functions.IFunction, System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(IFunction, String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(Fluency.Execution.Functions.IFunction, System.String)
+  name.vb: Is(Of T)(IFunction, String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Extensions.ExecutionExtensions
+  commentId: T:Fluency.Execution.Extensions.ExecutionExtensions
+  parent: Fluency.Execution.Extensions
+  name: ExecutionExtensions
+  nameWithType: ExecutionExtensions
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions
+- uid: Fluency.Execution.Extensions
+  commentId: N:Fluency.Execution.Extensions
+  name: Fluency.Execution.Extensions
+  nameWithType: Fluency.Execution.Extensions
+  fullName: Fluency.Execution.Extensions
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.Name*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+  name: Name
+  nameWithType: MergeIf.Name
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.Name
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  parent: Fluency.Execution.Functions.IFunction
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+  name: TopInput
+  nameWithType: MergeIf.TopInput
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.TopInput
+- uid: Fluency.Execution.Functions.ITopIn.TopInput
+  commentId: P:Fluency.Execution.Functions.ITopIn.TopInput
+  parent: Fluency.Execution.Functions.ITopIn
+  name: TopInput
+  nameWithType: ITopIn.TopInput
+  fullName: Fluency.Execution.Functions.ITopIn.TopInput
+- uid: Fluency.Execution.Functions.GetNext
+  commentId: T:Fluency.Execution.Functions.GetNext
+  parent: Fluency.Execution.Functions
+  name: GetNext
+  nameWithType: GetNext
+  fullName: Fluency.Execution.Functions.GetNext
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+  name: BottomInput
+  nameWithType: MergeIf.BottomInput
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.BottomInput
+- uid: Fluency.Execution.Functions.IBottomIn.BottomInput
+  commentId: P:Fluency.Execution.Functions.IBottomIn.BottomInput
+  parent: Fluency.Execution.Functions.IBottomIn
+  name: BottomInput
+  nameWithType: IBottomIn.BottomInput
+  fullName: Fluency.Execution.Functions.IBottomIn.BottomInput
+- uid: Fluency.Execution.Functions.BuiltIn.MergeIf.Top*
+  commentId: Overload:Fluency.Execution.Functions.BuiltIn.MergeIf.Top
+  name: Top
+  nameWithType: MergeIf.Top
+  fullName: Fluency.Execution.Functions.BuiltIn.MergeIf.Top
+- uid: Fluency.Execution.Functions.ITopOut.Top
+  commentId: M:Fluency.Execution.Functions.ITopOut.Top
+  parent: Fluency.Execution.Functions.ITopOut
+  name: Top()
+  nameWithType: ITopOut.Top()
+  fullName: Fluency.Execution.Functions.ITopOut.Top()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Functions.ITopOut.Top
+    name: Top
+    nameWithType: ITopOut.Top
+    fullName: Fluency.Execution.Functions.ITopOut.Top
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Functions.Value
+  commentId: T:Fluency.Execution.Functions.Value
+  parent: Fluency.Execution.Functions
+  name: Value
+  nameWithType: Value
+  fullName: Fluency.Execution.Functions.Value

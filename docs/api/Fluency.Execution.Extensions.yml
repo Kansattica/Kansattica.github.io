@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Extensions
+  commentId: N:Fluency.Execution.Extensions
+  id: Fluency.Execution.Extensions
+  children:
+  - Fluency.Execution.Extensions.ExecutionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Fluency.Execution.Extensions
+  nameWithType: Fluency.Execution.Extensions
+  fullName: Fluency.Execution.Extensions
+  type: Namespace
+  assemblies:
+  - Execution
+references:
+- uid: Fluency.Execution.Extensions.ExecutionExtensions
+  commentId: T:Fluency.Execution.Extensions.ExecutionExtensions
+  parent: Fluency.Execution.Extensions
+  name: ExecutionExtensions
+  nameWithType: ExecutionExtensions
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions
+- uid: Fluency.Execution.Extensions
+  commentId: N:Fluency.Execution.Extensions
+  name: Fluency.Execution.Extensions
+  nameWithType: Fluency.Execution.Extensions
+  fullName: Fluency.Execution.Extensions

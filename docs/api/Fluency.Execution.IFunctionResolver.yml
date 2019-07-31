@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.IFunctionResolver
+  commentId: T:Fluency.Execution.IFunctionResolver
+  id: IFunctionResolver
+  parent: Fluency.Execution
+  children:
+  - Fluency.Execution.IFunctionResolver.Resolve(System.String,Fluency.Execution.Functions.Value[])
+  langs:
+  - csharp
+  - vb
+  name: IFunctionResolver
+  nameWithType: IFunctionResolver
+  fullName: Fluency.Execution.IFunctionResolver
+  type: Interface
+  source:
+    remote:
+      path: Execution/Execution/IFunctionResolver.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: IFunctionResolver
+    path: ../Execution/Execution/IFunctionResolver.cs
+    startLine: 7
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution
+  summary: "\nSomething that knows how to make a Fluency function, given a name and arguments.\n"
+  example: []
+  syntax:
+    content: public interface IFunctionResolver
+    content.vb: Public Interface IFunctionResolver
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Fluency.Execution.IFunctionResolver.Resolve(System.String,Fluency.Execution.Functions.Value[])
+  commentId: M:Fluency.Execution.IFunctionResolver.Resolve(System.String,Fluency.Execution.Functions.Value[])
+  id: Resolve(System.String,Fluency.Execution.Functions.Value[])
+  parent: Fluency.Execution.IFunctionResolver
+  langs:
+  - csharp
+  - vb
+  name: Resolve(String, Value[])
+  nameWithType: IFunctionResolver.Resolve(String, Value[])
+  fullName: Fluency.Execution.IFunctionResolver.Resolve(System.String, Fluency.Execution.Functions.Value[])
+  type: Method
+  source:
+    remote:
+      path: Execution/Execution/IFunctionResolver.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Resolve
+    path: ../Execution/Execution/IFunctionResolver.cs
+    startLine: 9
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution
+  syntax:
+    content: IFunction Resolve(string name, Value[] arguments)
+    parameters:
+    - id: name
+      type: System.String
+    - id: arguments
+      type: Fluency.Execution.Functions.Value[]
+    return:
+      type: Fluency.Execution.Functions.IFunction
+    content.vb: Function Resolve(name As String, arguments As Value()) As IFunction
+  overload: Fluency.Execution.IFunctionResolver.Resolve*
+  nameWithType.vb: IFunctionResolver.Resolve(String, Value())
+  fullName.vb: Fluency.Execution.IFunctionResolver.Resolve(System.String, Fluency.Execution.Functions.Value())
+  name.vb: Resolve(String, Value())
+references:
+- uid: Fluency.Execution
+  commentId: N:Fluency.Execution
+  name: Fluency.Execution
+  nameWithType: Fluency.Execution
+  fullName: Fluency.Execution
+- uid: Fluency.Execution.IFunctionResolver.Resolve*
+  commentId: Overload:Fluency.Execution.IFunctionResolver.Resolve
+  name: Resolve
+  nameWithType: IFunctionResolver.Resolve
+  fullName: Fluency.Execution.IFunctionResolver.Resolve
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Functions.Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Fluency.Execution.Functions.Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Fluency.Execution.Functions.Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions

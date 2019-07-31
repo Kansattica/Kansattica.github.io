@@ -1,0 +1,1074 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException
+  commentId: T:Fluency.Execution.Parsing.Exceptions.ParseException
+  id: ParseException
+  parent: Fluency.Execution.Parsing.Exceptions
+  children:
+  - Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String)
+  - Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Exception)
+  - Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Object[])
+  - Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+  - Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+  - Fluency.Execution.Parsing.Exceptions.ParseException.Message
+  - Fluency.Execution.Parsing.Exceptions.ParseException.Position
+  - Fluency.Execution.Parsing.Exceptions.ParseException.Range
+  - Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+  - Fluency.Execution.Parsing.Exceptions.ParseException.ToString
+  langs:
+  - csharp
+  - vb
+  name: ParseException
+  nameWithType: ParseException
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException
+  type: Class
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: ParseException
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 8
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  summary: "\nRepresents an error that ocurred while parsing the source code.\n"
+  example: []
+  syntax:
+    content: 'public class ParseException : Exception, ISerializable'
+    content.vb: >-
+      Public Class ParseException
+          Inherits Exception
+          Implements ISerializable
+  inheritance:
+  - System.Object
+  - System.Exception
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.Data
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+  id: LineNumber
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: LineNumber
+  nameWithType: ParseException.LineNumber
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: LineNumber
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 10
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public int LineNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LineNumber As Integer
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Position
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.Position
+  id: Position
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ParseException.Position
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Position
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Position
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 11
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public int? Position { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Position As Integer?
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Range
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.Range
+  id: Range
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: Range
+  nameWithType: ParseException.Range
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Range
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Range
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 12
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public Range Range { get; set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Parsing.Entities.Range
+    content.vb: Public Property Range As Range
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.Range*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+  id: Snippet
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: Snippet
+  nameWithType: ParseException.Snippet
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Snippet
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 13
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public string Snippet { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Snippet As String
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.Snippet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+  id: FunctionToken
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: FunctionToken
+  nameWithType: ParseException.FunctionToken
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: FunctionToken
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 15
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public FunctionToken FunctionToken { set; }
+    parameters: []
+    return:
+      type: Fluency.Execution.Parsing.Entities.FunctionToken
+    content.vb: Public WriteOnly Property FunctionToken As FunctionToken
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String)
+  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: ParseException(String)
+  nameWithType: ParseException.ParseException(String)
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: .ctor
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 17
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public ParseException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Object[])
+  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Object[])
+  id: '#ctor(System.String,System.Object[])'
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: ParseException(String, Object[])
+  nameWithType: ParseException.ParseException(String, Object[])
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String, System.Object[])
+  type: Constructor
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: .ctor
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 18
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public ParseException(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub New(message As String, ParamArray args As Object())
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor*
+  nameWithType.vb: ParseException.ParseException(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String, System.Object())
+  name.vb: ParseException(String, Object())
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Exception)
+  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: ParseException(String, Exception)
+  nameWithType: ParseException.ParseException(String, Exception)
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String, System.Exception)
+  type: Constructor
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: .ctor
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 21
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public ParseException(string message, Exception inner)
+    parameters:
+    - id: message
+      type: System.String
+    - id: inner
+      type: System.Exception
+    content.vb: Public Sub New(message As String, inner As Exception)
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Message
+  commentId: P:Fluency.Execution.Parsing.Exceptions.ParseException.Message
+  id: Message
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ParseException.Message
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Message
+  type: Property
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Message
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 31
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public override string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Message As String
+  overridden: System.Exception.Message
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.Message*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.ToString
+  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.ToString
+  id: ToString
+  parent: Fluency.Execution.Parsing.Exceptions.ParseException
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParseException.ToString()
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ToString()
+  type: Method
+  source:
+    remote:
+      path: Execution/Parsing/ParseException.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: ToString
+    path: ../Execution/Parsing/ParseException.cs
+    startLine: 36
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Parsing.Exceptions
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Exception.ToString
+  overload: Fluency.Execution.Parsing.Exceptions.ParseException.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Fluency.Execution.Parsing.Exceptions
+  commentId: N:Fluency.Execution.Parsing.Exceptions
+  name: Fluency.Execution.Parsing.Exceptions
+  nameWithType: Fluency.Execution.Parsing.Exceptions
+  fullName: Fluency.Execution.Parsing.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: Exception.GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: Exception.GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+  name: LineNumber
+  nameWithType: ParseException.LineNumber
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.LineNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Position*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.Position
+  name: Position
+  nameWithType: ParseException.Position
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Position
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Range*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.Range
+  name: Range
+  nameWithType: ParseException.Range
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Range
+- uid: Fluency.Execution.Parsing.Entities.Range
+  commentId: T:Fluency.Execution.Parsing.Entities.Range
+  parent: Fluency.Execution.Parsing.Entities
+  name: Range
+  nameWithType: Range
+  fullName: Fluency.Execution.Parsing.Entities.Range
+- uid: Fluency.Execution.Parsing.Entities
+  commentId: N:Fluency.Execution.Parsing.Entities
+  name: Fluency.Execution.Parsing.Entities
+  nameWithType: Fluency.Execution.Parsing.Entities
+  fullName: Fluency.Execution.Parsing.Entities
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Snippet*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+  name: Snippet
+  nameWithType: ParseException.Snippet
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Snippet
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+  name: FunctionToken
+  nameWithType: ParseException.FunctionToken
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.FunctionToken
+- uid: Fluency.Execution.Parsing.Entities.FunctionToken
+  commentId: T:Fluency.Execution.Parsing.Entities.FunctionToken
+  parent: Fluency.Execution.Parsing.Entities
+  name: FunctionToken
+  nameWithType: FunctionToken
+  fullName: Fluency.Execution.Parsing.Entities.FunctionToken
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor
+  name: ParseException
+  nameWithType: ParseException.ParseException
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.Message*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.Message
+  name: Message
+  nameWithType: ParseException.Message
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.Message
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.ToString*
+  commentId: Overload:Fluency.Execution.Parsing.Exceptions.ParseException.ToString
+  name: ToString
+  nameWithType: ParseException.ToString
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ToString

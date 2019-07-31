@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  id: IFunction
+  parent: Fluency.Execution.Functions
+  children:
+  - Fluency.Execution.Functions.IFunction.Name
+  langs:
+  - csharp
+  - vb
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+  type: Interface
+  source:
+    remote:
+      path: Execution/Execution/Functions/IFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: IFunction
+    path: ../Execution/Execution/Functions/IFunction.cs
+    startLine: 7
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  summary: "\nA Fluency function.\n"
+  example: []
+  syntax:
+    content: public interface IFunction
+    content.vb: Public Interface IFunction
+  extensionMethods:
+  - Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Fluency.Execution.Functions.IFunction.Name
+  commentId: P:Fluency.Execution.Functions.IFunction.Name
+  id: Name
+  parent: Fluency.Execution.Functions.IFunction
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+  type: Property
+  source:
+    remote:
+      path: Execution/Execution/Functions/IFunction.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: Name
+    path: ../Execution/Execution/Functions/IFunction.cs
+    startLine: 12
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution.Functions
+  summary: "\nThe function&apos;s name.\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Fluency.Execution.Functions.IFunction.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
+- uid: Fluency.Execution.Functions.IFunction.Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  parent: Fluency.Execution.Extensions.ExecutionExtensions
+  definition: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  name: Is<T>(String)
+  nameWithType: ExecutionExtensions.Is<T>(String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(System.String)
+  name.vb: Is(Of T)(String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+  isExternal: true
+  name: Is<T>(IFunction, String)
+  nameWithType: ExecutionExtensions.Is<T>(IFunction, String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(Fluency.Execution.Functions.IFunction, System.String)
+  nameWithType.vb: ExecutionExtensions.Is(Of T)(IFunction, String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(Fluency.Execution.Functions.IFunction, System.String)
+  name.vb: Is(Of T)(IFunction, String)
+  spec.csharp:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is<T>
+    nameWithType: ExecutionExtensions.Is<T>
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
+    name: Is(Of T)
+    nameWithType: ExecutionExtensions.Is(Of T)
+    fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Fluency.Execution.Functions.IFunction
+    name: IFunction
+    nameWithType: IFunction
+    fullName: Fluency.Execution.Functions.IFunction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Fluency.Execution.Extensions.ExecutionExtensions
+  commentId: T:Fluency.Execution.Extensions.ExecutionExtensions
+  parent: Fluency.Execution.Extensions
+  name: ExecutionExtensions
+  nameWithType: ExecutionExtensions
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions
+- uid: Fluency.Execution.Extensions
+  commentId: N:Fluency.Execution.Extensions
+  name: Fluency.Execution.Extensions
+  nameWithType: Fluency.Execution.Extensions
+  fullName: Fluency.Execution.Extensions
+- uid: Fluency.Execution.Functions.IFunction.Name*
+  commentId: Overload:Fluency.Execution.Functions.IFunction.Name
+  name: Name
+  nameWithType: IFunction.Name
+  fullName: Fluency.Execution.Functions.IFunction.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

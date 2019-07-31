@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fluency.Execution.FunctionMaker
+  commentId: T:Fluency.Execution.FunctionMaker
+  id: FunctionMaker
+  parent: Fluency.Execution
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FunctionMaker
+  nameWithType: FunctionMaker
+  fullName: Fluency.Execution.FunctionMaker
+  type: Delegate
+  source:
+    remote:
+      path: Execution/Execution/Linker.cs
+      branch: 0244abd8aff50a2eb5c9fdca9193885cff638193
+      repo: https://github.com/Kansattica/Fluency.git
+    id: FunctionMaker
+    path: ../Execution/Execution/Linker.cs
+    startLine: 54
+  assemblies:
+  - Execution
+  namespace: Fluency.Execution
+  syntax:
+    content: public delegate IFunction FunctionMaker(Value[] arguments);
+    parameters:
+    - id: arguments
+      type: Fluency.Execution.Functions.Value[]
+    return:
+      type: Fluency.Execution.Functions.IFunction
+    content.vb: Public Delegate Function FunctionMaker(arguments As Value()) As IFunction
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Fluency.Execution
+  commentId: N:Fluency.Execution
+  name: Fluency.Execution
+  nameWithType: Fluency.Execution
+  fullName: Fluency.Execution
+- uid: Fluency.Execution.Functions.Value[]
+  isExternal: true
+  name: Value[]
+  nameWithType: Value[]
+  fullName: Fluency.Execution.Functions.Value[]
+  nameWithType.vb: Value()
+  fullName.vb: Fluency.Execution.Functions.Value()
+  name.vb: Value()
+  spec.csharp:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Fluency.Execution.Functions.Value
+    name: Value
+    nameWithType: Value
+    fullName: Fluency.Execution.Functions.Value
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Fluency.Execution.Functions.IFunction
+  commentId: T:Fluency.Execution.Functions.IFunction
+  parent: Fluency.Execution.Functions
+  name: IFunction
+  nameWithType: IFunction
+  fullName: Fluency.Execution.Functions.IFunction
+- uid: Fluency.Execution.Functions
+  commentId: N:Fluency.Execution.Functions
+  name: Fluency.Execution.Functions
+  nameWithType: Fluency.Execution.Functions
+  fullName: Fluency.Execution.Functions
