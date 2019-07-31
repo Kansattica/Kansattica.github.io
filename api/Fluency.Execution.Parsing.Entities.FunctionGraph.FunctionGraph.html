@@ -99,24 +99,29 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Fluency.Execution.Parsing.Entities.FunctionGraph.html">Fluency.Execution.Parsing.Entities.FunctionGraph</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Execution.dll</h6>
   <h5 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class FunctionGraph</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kansattica/Fluency/new/443f1909b16c94519f21a28918ea2d5193dbee9a/apiSpec/new?filename=Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_Fluency_Execution_Parsing_Entities_FunctionToken___.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.%23ctor(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.IEnumerable%7BFluency.Execution.Parsing.Entities.FunctionToken%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kansattica/Fluency/blob/443f1909b16c94519f21a28918ea2d5193dbee9a/Execution/Parsing/Entities/FunctionGraph/FunctionGraph.cs/#L35">View Source</a>
+  </span>
   <a id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor*"></a>
-  <h4 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_IEnumerable_IEnumerable_Fluency_Execution_Parsing_Entities_FunctionToken___" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(IEnumerable{IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})">FunctionGraph(IEnumerable&lt;IEnumerable&lt;FunctionToken&gt;&gt;)</h4>
+  <h4 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_Fluency_Execution_Parsing_Entities_FunctionToken___" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})">FunctionGraph(IEnumerable&lt;IEnumerable&lt;FunctionToken&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Create a new function graph. This takes an IEnumerable of tokenized lines (which are themselves IEnumerables of tokens).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -135,7 +140,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Fluency.Execution.Parsing.Entities.FunctionToken.html">FunctionToken</a>&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Fluency.Execution.Parsing.Entities.FunctionToken.html">FunctionToken</a>&gt;&gt;</td>
         <td><span class="parametername">tokens</span></td>
         <td></td>
       </tr>
@@ -143,8 +148,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kansattica/Fluency/new/443f1909b16c94519f21a28918ea2d5193dbee9a/apiSpec/new?filename=Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Arguments.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Arguments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kansattica/Fluency/blob/443f1909b16c94519f21a28918ea2d5193dbee9a/Execution/Parsing/Entities/FunctionGraph/FunctionGraph.cs/#L29">View Source</a>
+  </span>
   <a id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Arguments_" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Arguments*"></a>
   <h4 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Arguments" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Arguments">Arguments</h4>
   <div class="markdown level1 summary"><p>The arguments this function has declared.</p>
@@ -164,13 +174,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">FunctionArg</span>[]</td>
+        <td><a class="xref" href="Fluency.Execution.Parsing.Entities.ArgumentTypes.FunctionArg.html">FunctionArg</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kansattica/Fluency/new/443f1909b16c94519f21a28918ea2d5193dbee9a/apiSpec/new?filename=Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Head.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Head%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kansattica/Fluency/blob/443f1909b16c94519f21a28918ea2d5193dbee9a/Execution/Parsing/Entities/FunctionGraph/FunctionGraph.cs/#L17">View Source</a>
+  </span>
   <a id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Head_" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Head*"></a>
   <h4 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Head" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Head">Head</h4>
   <div class="markdown level1 summary"><p>The root node of the function. This is the Def() function.</p>
@@ -195,8 +210,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kansattica/Fluency/new/443f1909b16c94519f21a28918ea2d5193dbee9a/apiSpec/new?filename=Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Name.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kansattica/Fluency/blob/443f1909b16c94519f21a28918ea2d5193dbee9a/Execution/Parsing/Entities/FunctionGraph/FunctionGraph.cs/#L23">View Source</a>
+  </span>
   <a id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Name_" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Name*"></a>
   <h4 id="Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Name" data-uid="Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.Name">Name</h4>
   <div class="markdown level1 summary"><p>Name of the function this graph represents.</p>
@@ -228,6 +248,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Kansattica/Fluency/new/443f1909b16c94519f21a28918ea2d5193dbee9a/apiSpec/new?filename=Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Kansattica/Fluency/blob/443f1909b16c94519f21a28918ea2d5193dbee9a/Execution/Parsing/Entities/FunctionGraph/FunctionGraph.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

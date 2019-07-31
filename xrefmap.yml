@@ -67,19 +67,19 @@ references:
   commentId: T:Fluency.Execution.Exceptions.ExecutionException
   fullName: Fluency.Execution.Exceptions.ExecutionException
   nameWithType: ExecutionException
-- uid: Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,Exception)
+- uid: Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,System.Exception)
   name: ExecutionException(String, Exception)
-  href: api/Fluency.Execution.Exceptions.ExecutionException.html#Fluency_Execution_Exceptions_ExecutionException__ctor_System_String_Exception_
-  commentId: M:Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,Exception)
-  fullName: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, Exception)
+  href: api/Fluency.Execution.Exceptions.ExecutionException.html#Fluency_Execution_Exceptions_ExecutionException__ctor_System_String_System_Exception_
+  commentId: M:Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,System.Exception)
+  fullName: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, System.Exception)
   nameWithType: ExecutionException.ExecutionException(String, Exception)
-- uid: Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,Exception,System.Object[])
+- uid: Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,System.Exception,System.Object[])
   name: ExecutionException(String, Exception, Object[])
-  href: api/Fluency.Execution.Exceptions.ExecutionException.html#Fluency_Execution_Exceptions_ExecutionException__ctor_System_String_Exception_System_Object___
-  commentId: M:Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,Exception,System.Object[])
+  href: api/Fluency.Execution.Exceptions.ExecutionException.html#Fluency_Execution_Exceptions_ExecutionException__ctor_System_String_System_Exception_System_Object___
+  commentId: M:Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,System.Exception,System.Object[])
   name.vb: ExecutionException(String, Exception, Object())
-  fullName: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, Exception, System.Object[])
-  fullName.vb: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, Exception, System.Object())
+  fullName: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, System.Exception, System.Object[])
+  fullName.vb: Fluency.Execution.Exceptions.ExecutionException.ExecutionException(System.String, System.Exception, System.Object())
   nameWithType: ExecutionException.ExecutionException(String, Exception, Object[])
   nameWithType.vb: ExecutionException.ExecutionException(String, Exception, Object())
 - uid: Fluency.Execution.Exceptions.ExecutionException.#ctor(System.String,System.Object[])
@@ -117,13 +117,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange
   nameWithType: ExecutionExtensions.EnqueueRange
-- uid: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange``1(Queue{``0},IEnumerable{``0})
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange``1(System.Collections.Generic.Queue{``0},System.Collections.Generic.IEnumerable{``0})
   name: EnqueueRange<T>(Queue<T>, IEnumerable<T>)
-  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_EnqueueRange__1_Queue___0__IEnumerable___0__
-  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange``1(Queue{``0},IEnumerable{``0})
+  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_EnqueueRange__1_System_Collections_Generic_Queue___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange``1(System.Collections.Generic.Queue{``0},System.Collections.Generic.IEnumerable{``0})
   name.vb: EnqueueRange(Of T)(Queue(Of T), IEnumerable(Of T))
-  fullName: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange<T>(Queue<T>, IEnumerable<T>)
-  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange(Of T)(Queue(Of T), IEnumerable(Of T))
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange<T>(System.Collections.Generic.Queue<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.EnqueueRange(Of T)(System.Collections.Generic.Queue(Of T), System.Collections.Generic.IEnumerable(Of T))
   nameWithType: ExecutionExtensions.EnqueueRange<T>(Queue<T>, IEnumerable<T>)
   nameWithType.vb: ExecutionExtensions.EnqueueRange(Of T)(Queue(Of T), IEnumerable(Of T))
 - uid: Fluency.Execution.Extensions.ExecutionExtensions.Is*
@@ -133,13 +133,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is
   nameWithType: ExecutionExtensions.Is
-- uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(IFunction,System.String)
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
   name: Is<T>(IFunction, String)
-  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_Is__1_IFunction_System_String_
-  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(IFunction,System.String)
+  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_Is__1_Fluency_Execution_Functions_IFunction_System_String_
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.Is``1(Fluency.Execution.Functions.IFunction,System.String)
   name.vb: Is(Of T)(IFunction, String)
-  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(IFunction, System.String)
-  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(IFunction, System.String)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.Is<T>(Fluency.Execution.Functions.IFunction, System.String)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.Is(Of T)(Fluency.Execution.Functions.IFunction, System.String)
   nameWithType: ExecutionExtensions.Is<T>(IFunction, String)
   nameWithType.vb: ExecutionExtensions.Is(Of T)(IFunction, String)
 - uid: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue*
@@ -149,13 +149,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue
   nameWithType: ExecutionExtensions.TryDequeue
-- uid: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue``1(Queue{``0},``0@)
+- uid: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue``1(System.Collections.Generic.Queue{``0},``0@)
   name: TryDequeue<T>(Queue<T>, out T)
-  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_TryDequeue__1_Queue___0____0__
-  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue``1(Queue{``0},``0@)
+  href: api/Fluency.Execution.Extensions.ExecutionExtensions.html#Fluency_Execution_Extensions_ExecutionExtensions_TryDequeue__1_System_Collections_Generic_Queue___0____0__
+  commentId: M:Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue``1(System.Collections.Generic.Queue{``0},``0@)
   name.vb: TryDequeue(Of T)(Queue(Of T), ByRef T)
-  fullName: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue<T>(Queue<T>, out T)
-  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue(Of T)(Queue(Of T), ByRef T)
+  fullName: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue<T>(System.Collections.Generic.Queue<T>, out T)
+  fullName.vb: Fluency.Execution.Extensions.ExecutionExtensions.TryDequeue(Of T)(System.Collections.Generic.Queue(Of T), ByRef T)
   nameWithType: ExecutionExtensions.TryDequeue<T>(Queue<T>, out T)
   nameWithType.vb: ExecutionExtensions.TryDequeue(Of T)(Queue(Of T), ByRef T)
 - uid: Fluency.Execution.FunctionMaker
@@ -391,13 +391,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Functions.BuiltIn.Dup.Bottom
   nameWithType: Dup.Bottom
-- uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+- uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(System.Collections.Generic.Queue{Fluency.Execution.Functions.Value},System.Collections.Generic.Queue{Fluency.Execution.Functions.Value})
   name: DoQueueing(Queue<Value>, Queue<Value>)
-  href: api/Fluency.Execution.Functions.BuiltIn.Dup.html#Fluency_Execution_Functions_BuiltIn_Dup_DoQueueing_Queue_Fluency_Execution_Functions_Value__Queue_Fluency_Execution_Functions_Value__
-  commentId: M:Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue{Fluency.Execution.Functions.Value},Queue{Fluency.Execution.Functions.Value})
+  href: api/Fluency.Execution.Functions.BuiltIn.Dup.html#Fluency_Execution_Functions_BuiltIn_Dup_DoQueueing_System_Collections_Generic_Queue_Fluency_Execution_Functions_Value__System_Collections_Generic_Queue_Fluency_Execution_Functions_Value__
+  commentId: M:Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(System.Collections.Generic.Queue{Fluency.Execution.Functions.Value},System.Collections.Generic.Queue{Fluency.Execution.Functions.Value})
   name.vb: DoQueueing(Queue(Of Value), Queue(Of Value))
-  fullName: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue<Fluency.Execution.Functions.Value>, Queue<Fluency.Execution.Functions.Value>)
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(Queue(Of Fluency.Execution.Functions.Value), Queue(Of Fluency.Execution.Functions.Value))
+  fullName: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(System.Collections.Generic.Queue<Fluency.Execution.Functions.Value>, System.Collections.Generic.Queue<Fluency.Execution.Functions.Value>)
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing(System.Collections.Generic.Queue(Of Fluency.Execution.Functions.Value), System.Collections.Generic.Queue(Of Fluency.Execution.Functions.Value))
   nameWithType: Dup.DoQueueing(Queue<Value>, Queue<Value>)
   nameWithType.vb: Dup.DoQueueing(Queue(Of Value), Queue(Of Value))
 - uid: Fluency.Execution.Functions.BuiltIn.Dup.DoQueueing*
@@ -1024,13 +1024,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinary(Of TRealTop, TRealBottom, TRealOut)
   nameWithType: WrapBinary<TRealTop, TRealBottom, TRealOut>
   nameWithType.vb: WrapBinary(Of TRealTop, TRealBottom, TRealOut)
-- uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3.#ctor(Func{`0,`1,`2},FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3.#ctor(System.Func{`0,`1,`2},Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name: WrapBinary(Func<TRealTop, TRealBottom, TRealOut>, FluencyType, FluencyType, String, Value[])
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinary-3.html#Fluency_Execution_Functions_BuiltIn_WrapBinary_3__ctor_Func__0__1__2__FluencyType_FluencyType_System_String_Fluency_Execution_Functions_Value___
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinary`3.#ctor(Func{`0,`1,`2},FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinary-3.html#Fluency_Execution_Functions_BuiltIn_WrapBinary_3__ctor_System_Func__0__1__2__Fluency_Common_FluencyType_Fluency_Common_FluencyType_System_String_Fluency_Execution_Functions_Value___
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinary`3.#ctor(System.Func{`0,`1,`2},Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name.vb: WrapBinary(Func(Of TRealTop, TRealBottom, TRealOut), FluencyType, FluencyType, String, Value())
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinary<TRealTop, TRealBottom, TRealOut>.WrapBinary(Func<TRealTop, TRealBottom, TRealOut>, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value[])
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinary(Of TRealTop, TRealBottom, TRealOut).WrapBinary(Func(Of TRealTop, TRealBottom, TRealOut), FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value())
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinary<TRealTop, TRealBottom, TRealOut>.WrapBinary(System.Func<TRealTop, TRealBottom, TRealOut>, Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value[])
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinary(Of TRealTop, TRealBottom, TRealOut).WrapBinary(System.Func(Of TRealTop, TRealBottom, TRealOut), Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value())
   nameWithType: WrapBinary<TRealTop, TRealBottom, TRealOut>.WrapBinary(Func<TRealTop, TRealBottom, TRealOut>, FluencyType, FluencyType, String, Value[])
   nameWithType.vb: WrapBinary(Of TRealTop, TRealBottom, TRealOut).WrapBinary(Func(Of TRealTop, TRealBottom, TRealOut), FluencyType, FluencyType, String, Value())
 - uid: Fluency.Execution.Functions.BuiltIn.WrapBinary`3.#ctor*
@@ -1119,13 +1119,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold(Of TReal)
   nameWithType: WrapBinaryFold<TReal>
   nameWithType.vb: WrapBinaryFold(Of TReal)
-- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold`1.#ctor(Func{`0,`0,`0},FluencyType,System.String,Fluency.Execution.Functions.Value[],Fluency.Execution.Functions.Value)
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold`1.#ctor(System.Func{`0,`0,`0},Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[],Fluency.Execution.Functions.Value)
   name: WrapBinaryFold(Func<TReal, TReal, TReal>, FluencyType, String, Value[], Value)
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryFold-1.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryFold_1__ctor_Func__0__0__0__FluencyType_System_String_Fluency_Execution_Functions_Value___Fluency_Execution_Functions_Value_
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryFold`1.#ctor(Func{`0,`0,`0},FluencyType,System.String,Fluency.Execution.Functions.Value[],Fluency.Execution.Functions.Value)
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryFold-1.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryFold_1__ctor_System_Func__0__0__0__Fluency_Common_FluencyType_System_String_Fluency_Execution_Functions_Value___Fluency_Execution_Functions_Value_
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryFold`1.#ctor(System.Func{`0,`0,`0},Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[],Fluency.Execution.Functions.Value)
   name.vb: WrapBinaryFold(Func(Of TReal, TReal, TReal), FluencyType, String, Value(), Value)
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold<TReal>.WrapBinaryFold(Func<TReal, TReal, TReal>, FluencyType, System.String, Fluency.Execution.Functions.Value[], Fluency.Execution.Functions.Value)
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold(Of TReal).WrapBinaryFold(Func(Of TReal, TReal, TReal), FluencyType, System.String, Fluency.Execution.Functions.Value(), Fluency.Execution.Functions.Value)
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold<TReal>.WrapBinaryFold(System.Func<TReal, TReal, TReal>, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value[], Fluency.Execution.Functions.Value)
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold(Of TReal).WrapBinaryFold(System.Func(Of TReal, TReal, TReal), Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value(), Fluency.Execution.Functions.Value)
   nameWithType: WrapBinaryFold<TReal>.WrapBinaryFold(Func<TReal, TReal, TReal>, FluencyType, String, Value[], Value)
   nameWithType.vb: WrapBinaryFold(Of TReal).WrapBinaryFold(Func(Of TReal, TReal, TReal), FluencyType, String, Value(), Value)
 - uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryFold`1.#ctor*
@@ -1214,13 +1214,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput(Of TRealTop, TRealBottom, TRealOut)
   nameWithType: WrapBinaryStreamOutput<TRealTop, TRealBottom, TRealOut>
   nameWithType.vb: WrapBinaryStreamOutput(Of TRealTop, TRealBottom, TRealOut)
-- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput`3.#ctor(Func{`0,`1,IEnumerable{`2}},FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput`3.#ctor(System.Func{`0,`1,System.Collections.Generic.IEnumerable{`2}},Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name: WrapBinaryStreamOutput(Func<TRealTop, TRealBottom, IEnumerable<TRealOut>>, FluencyType, FluencyType, String, Value[])
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput-3.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryStreamOutput_3__ctor_Func__0__1_IEnumerable__2___FluencyType_FluencyType_System_String_Fluency_Execution_Functions_Value___
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput`3.#ctor(Func{`0,`1,IEnumerable{`2}},FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput-3.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryStreamOutput_3__ctor_System_Func__0__1_System_Collections_Generic_IEnumerable__2___Fluency_Common_FluencyType_Fluency_Common_FluencyType_System_String_Fluency_Execution_Functions_Value___
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput`3.#ctor(System.Func{`0,`1,System.Collections.Generic.IEnumerable{`2}},Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name.vb: WrapBinaryStreamOutput(Func(Of TRealTop, TRealBottom, IEnumerable(Of TRealOut)), FluencyType, FluencyType, String, Value())
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput<TRealTop, TRealBottom, TRealOut>.WrapBinaryStreamOutput(Func<TRealTop, TRealBottom, IEnumerable<TRealOut>>, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value[])
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput(Of TRealTop, TRealBottom, TRealOut).WrapBinaryStreamOutput(Func(Of TRealTop, TRealBottom, IEnumerable(Of TRealOut)), FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value())
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput<TRealTop, TRealBottom, TRealOut>.WrapBinaryStreamOutput(System.Func<TRealTop, TRealBottom, System.Collections.Generic.IEnumerable<TRealOut>>, Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value[])
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput(Of TRealTop, TRealBottom, TRealOut).WrapBinaryStreamOutput(System.Func(Of TRealTop, TRealBottom, System.Collections.Generic.IEnumerable(Of TRealOut)), Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value())
   nameWithType: WrapBinaryStreamOutput<TRealTop, TRealBottom, TRealOut>.WrapBinaryStreamOutput(Func<TRealTop, TRealBottom, IEnumerable<TRealOut>>, FluencyType, FluencyType, String, Value[])
   nameWithType.vb: WrapBinaryStreamOutput(Of TRealTop, TRealBottom, TRealOut).WrapBinaryStreamOutput(Func(Of TRealTop, TRealBottom, IEnumerable(Of TRealOut)), FluencyType, FluencyType, String, Value())
 - uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryStreamOutput`3.#ctor*
@@ -1309,13 +1309,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
   nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>
   nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut)
-- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(System.Func{`0,`1,System.ValueTuple{`2,`3}},Fluency.Common.FluencyType,Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name: WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)>, FluencyType, FluencyType, FluencyType, String, Value[])
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs-4.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryTwoOutputs_4__ctor_Func__0__1_System_ValueTuple__2__3___FluencyType_FluencyType_FluencyType_System_String_Fluency_Execution_Functions_Value___
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(Func{`0,`1,System.ValueTuple{`2,`3}},FluencyType,FluencyType,FluencyType,System.String,Fluency.Execution.Functions.Value[])
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs-4.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryTwoOutputs_4__ctor_System_Func__0__1_System_ValueTuple__2__3___Fluency_Common_FluencyType_Fluency_Common_FluencyType_Fluency_Common_FluencyType_System_String_Fluency_Execution_Functions_Value___
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor(System.Func{`0,`1,System.ValueTuple{`2,`3}},Fluency.Common.FluencyType,Fluency.Common.FluencyType,Fluency.Common.FluencyType,System.String,Fluency.Execution.Functions.Value[])
   name.vb: WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, String, Value())
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, System.ValueTuple<TRealTopOut, TRealBottomOut>>, FluencyType, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value[])
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, System.ValueTuple(Of TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, System.String, Fluency.Execution.Functions.Value())
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs(System.Func<TRealTop, TRealBottom, System.ValueTuple<TRealTopOut, TRealBottomOut>>, Fluency.Common.FluencyType, Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value[])
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs(System.Func(Of TRealTop, TRealBottom, System.ValueTuple(Of TRealTopOut, TRealBottomOut)), Fluency.Common.FluencyType, Fluency.Common.FluencyType, Fluency.Common.FluencyType, System.String, Fluency.Execution.Functions.Value())
   nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.WrapBinaryTwoOutputs(Func<TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)>, FluencyType, FluencyType, FluencyType, String, Value[])
   nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).WrapBinaryTwoOutputs(Func(Of TRealTop, TRealBottom, (TRealTopOut, TRealBottomOut)), FluencyType, FluencyType, FluencyType, String, Value())
 - uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.#ctor*
@@ -1412,13 +1412,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
   nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TopInput
   nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TopInput
-- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+- uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(System.Collections.Generic.Queue{Fluency.Execution.Functions.Value})
   name: TryGetFromQueue(Queue<Value>)
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs-4.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryTwoOutputs_4_TryGetFromQueue_Queue_Fluency_Execution_Functions_Value__
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(Queue{Fluency.Execution.Functions.Value})
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs-4.html#Fluency_Execution_Functions_BuiltIn_WrapBinaryTwoOutputs_4_TryGetFromQueue_System_Collections_Generic_Queue_Fluency_Execution_Functions_Value__
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue(System.Collections.Generic.Queue{Fluency.Execution.Functions.Value})
   name.vb: TryGetFromQueue(Queue(Of Value))
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue(Queue<Fluency.Execution.Functions.Value>)
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue(Queue(Of Fluency.Execution.Functions.Value))
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue(System.Collections.Generic.Queue<Fluency.Execution.Functions.Value>)
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue(System.Collections.Generic.Queue(Of Fluency.Execution.Functions.Value))
   nameWithType: WrapBinaryTwoOutputs<TRealTop, TRealBottom, TRealTopOut, TRealBottomOut>.TryGetFromQueue(Queue<Value>)
   nameWithType.vb: WrapBinaryTwoOutputs(Of TRealTop, TRealBottom, TRealTopOut, TRealBottomOut).TryGetFromQueue(Queue(Of Value))
 - uid: Fluency.Execution.Functions.BuiltIn.WrapBinaryTwoOutputs`4.TryGetFromQueue*
@@ -1439,13 +1439,13 @@ references:
   fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapUnary(Of TRealIn, TRealOut)
   nameWithType: WrapUnary<TRealIn, TRealOut>
   nameWithType.vb: WrapUnary(Of TRealIn, TRealOut)
-- uid: Fluency.Execution.Functions.BuiltIn.WrapUnary`2.#ctor(Func{`0,`1},FluencyType,System.String)
+- uid: Fluency.Execution.Functions.BuiltIn.WrapUnary`2.#ctor(System.Func{`0,`1},Fluency.Common.FluencyType,System.String)
   name: WrapUnary(Func<TRealIn, TRealOut>, FluencyType, String)
-  href: api/Fluency.Execution.Functions.BuiltIn.WrapUnary-2.html#Fluency_Execution_Functions_BuiltIn_WrapUnary_2__ctor_Func__0__1__FluencyType_System_String_
-  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapUnary`2.#ctor(Func{`0,`1},FluencyType,System.String)
+  href: api/Fluency.Execution.Functions.BuiltIn.WrapUnary-2.html#Fluency_Execution_Functions_BuiltIn_WrapUnary_2__ctor_System_Func__0__1__Fluency_Common_FluencyType_System_String_
+  commentId: M:Fluency.Execution.Functions.BuiltIn.WrapUnary`2.#ctor(System.Func{`0,`1},Fluency.Common.FluencyType,System.String)
   name.vb: WrapUnary(Func(Of TRealIn, TRealOut), FluencyType, String)
-  fullName: Fluency.Execution.Functions.BuiltIn.WrapUnary<TRealIn, TRealOut>.WrapUnary(Func<TRealIn, TRealOut>, FluencyType, System.String)
-  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapUnary(Of TRealIn, TRealOut).WrapUnary(Func(Of TRealIn, TRealOut), FluencyType, System.String)
+  fullName: Fluency.Execution.Functions.BuiltIn.WrapUnary<TRealIn, TRealOut>.WrapUnary(System.Func<TRealIn, TRealOut>, Fluency.Common.FluencyType, System.String)
+  fullName.vb: Fluency.Execution.Functions.BuiltIn.WrapUnary(Of TRealIn, TRealOut).WrapUnary(System.Func(Of TRealIn, TRealOut), Fluency.Common.FluencyType, System.String)
   nameWithType: WrapUnary<TRealIn, TRealOut>.WrapUnary(Func<TRealIn, TRealOut>, FluencyType, String)
   nameWithType.vb: WrapUnary(Of TRealIn, TRealOut).WrapUnary(Func(Of TRealIn, TRealOut), FluencyType, String)
 - uid: Fluency.Execution.Functions.BuiltIn.WrapUnary`2.#ctor*
@@ -1791,13 +1791,13 @@ references:
   commentId: T:Fluency.Execution.Functions.UserDefinedFunction
   fullName: Fluency.Execution.Functions.UserDefinedFunction
   nameWithType: UserDefinedFunction
-- uid: Fluency.Execution.Functions.UserDefinedFunction.#ctor(FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+- uid: Fluency.Execution.Functions.UserDefinedFunction.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
   name: UserDefinedFunction(FunctionGraph, Value[], IFunctionResolver)
-  href: api/Fluency.Execution.Functions.UserDefinedFunction.html#Fluency_Execution_Functions_UserDefinedFunction__ctor_FunctionGraph_Fluency_Execution_Functions_Value___Fluency_Execution_IFunctionResolver_
-  commentId: M:Fluency.Execution.Functions.UserDefinedFunction.#ctor(FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+  href: api/Fluency.Execution.Functions.UserDefinedFunction.html#Fluency_Execution_Functions_UserDefinedFunction__ctor_Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Fluency_Execution_Functions_Value___Fluency_Execution_IFunctionResolver_
+  commentId: M:Fluency.Execution.Functions.UserDefinedFunction.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
   name.vb: UserDefinedFunction(FunctionGraph, Value(), IFunctionResolver)
-  fullName: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(FunctionGraph, Fluency.Execution.Functions.Value[], Fluency.Execution.IFunctionResolver)
-  fullName.vb: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(FunctionGraph, Fluency.Execution.Functions.Value(), Fluency.Execution.IFunctionResolver)
+  fullName: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value[], Fluency.Execution.IFunctionResolver)
+  fullName.vb: Fluency.Execution.Functions.UserDefinedFunction.UserDefinedFunction(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value(), Fluency.Execution.IFunctionResolver)
   nameWithType: UserDefinedFunction.UserDefinedFunction(FunctionGraph, Value[], IFunctionResolver)
   nameWithType.vb: UserDefinedFunction.UserDefinedFunction(FunctionGraph, Value(), IFunctionResolver)
 - uid: Fluency.Execution.Functions.UserDefinedFunction.#ctor*
@@ -1891,13 +1891,13 @@ references:
   commentId: T:Fluency.Execution.Functions.UserFunctionStub
   fullName: Fluency.Execution.Functions.UserFunctionStub
   nameWithType: UserFunctionStub
-- uid: Fluency.Execution.Functions.UserFunctionStub.#ctor(FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+- uid: Fluency.Execution.Functions.UserFunctionStub.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
   name: UserFunctionStub(FunctionGraph, Value[], IFunctionResolver)
-  href: api/Fluency.Execution.Functions.UserFunctionStub.html#Fluency_Execution_Functions_UserFunctionStub__ctor_FunctionGraph_Fluency_Execution_Functions_Value___Fluency_Execution_IFunctionResolver_
-  commentId: M:Fluency.Execution.Functions.UserFunctionStub.#ctor(FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
+  href: api/Fluency.Execution.Functions.UserFunctionStub.html#Fluency_Execution_Functions_UserFunctionStub__ctor_Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph_Fluency_Execution_Functions_Value___Fluency_Execution_IFunctionResolver_
+  commentId: M:Fluency.Execution.Functions.UserFunctionStub.#ctor(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph,Fluency.Execution.Functions.Value[],Fluency.Execution.IFunctionResolver)
   name.vb: UserFunctionStub(FunctionGraph, Value(), IFunctionResolver)
-  fullName: Fluency.Execution.Functions.UserFunctionStub.UserFunctionStub(FunctionGraph, Fluency.Execution.Functions.Value[], Fluency.Execution.IFunctionResolver)
-  fullName.vb: Fluency.Execution.Functions.UserFunctionStub.UserFunctionStub(FunctionGraph, Fluency.Execution.Functions.Value(), Fluency.Execution.IFunctionResolver)
+  fullName: Fluency.Execution.Functions.UserFunctionStub.UserFunctionStub(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value[], Fluency.Execution.IFunctionResolver)
+  fullName.vb: Fluency.Execution.Functions.UserFunctionStub.UserFunctionStub(Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph, Fluency.Execution.Functions.Value(), Fluency.Execution.IFunctionResolver)
   nameWithType: UserFunctionStub.UserFunctionStub(FunctionGraph, Value[], IFunctionResolver)
   nameWithType.vb: UserFunctionStub.UserFunctionStub(FunctionGraph, Value(), IFunctionResolver)
 - uid: Fluency.Execution.Functions.UserFunctionStub.#ctor*
@@ -1978,17 +1978,17 @@ references:
   commentId: T:Fluency.Execution.Functions.Value
   fullName: Fluency.Execution.Functions.Value
   nameWithType: Value
-- uid: Fluency.Execution.Functions.Value.#ctor(Argument)
+- uid: Fluency.Execution.Functions.Value.#ctor(Fluency.Execution.Parsing.Entities.Argument)
   name: Value(Argument)
-  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value__ctor_Argument_
-  commentId: M:Fluency.Execution.Functions.Value.#ctor(Argument)
-  fullName: Fluency.Execution.Functions.Value.Value(Argument)
+  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value__ctor_Fluency_Execution_Parsing_Entities_Argument_
+  commentId: M:Fluency.Execution.Functions.Value.#ctor(Fluency.Execution.Parsing.Entities.Argument)
+  fullName: Fluency.Execution.Functions.Value.Value(Fluency.Execution.Parsing.Entities.Argument)
   nameWithType: Value.Value(Argument)
-- uid: Fluency.Execution.Functions.Value.#ctor(System.Object,FluencyType)
+- uid: Fluency.Execution.Functions.Value.#ctor(System.Object,Fluency.Common.FluencyType)
   name: Value(Object, FluencyType)
-  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value__ctor_System_Object_FluencyType_
-  commentId: M:Fluency.Execution.Functions.Value.#ctor(System.Object,FluencyType)
-  fullName: Fluency.Execution.Functions.Value.Value(System.Object, FluencyType)
+  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value__ctor_System_Object_Fluency_Common_FluencyType_
+  commentId: M:Fluency.Execution.Functions.Value.#ctor(System.Object,Fluency.Common.FluencyType)
+  fullName: Fluency.Execution.Functions.Value.Value(System.Object, Fluency.Common.FluencyType)
   nameWithType: Value.Value(Object, FluencyType)
 - uid: Fluency.Execution.Functions.Value.#ctor*
   name: Value
@@ -2049,13 +2049,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Functions.Value.Get
   nameWithType: Value.Get
-- uid: Fluency.Execution.Functions.Value.Get``1(System.Nullable{FluencyType},System.String)
+- uid: Fluency.Execution.Functions.Value.Get``1(System.Nullable{Fluency.Common.FluencyType},System.String)
   name: Get<T>(Nullable<FluencyType>, String)
-  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value_Get__1_System_Nullable_FluencyType__System_String_
-  commentId: M:Fluency.Execution.Functions.Value.Get``1(System.Nullable{FluencyType},System.String)
+  href: api/Fluency.Execution.Functions.Value.html#Fluency_Execution_Functions_Value_Get__1_System_Nullable_Fluency_Common_FluencyType__System_String_
+  commentId: M:Fluency.Execution.Functions.Value.Get``1(System.Nullable{Fluency.Common.FluencyType},System.String)
   name.vb: Get(Of T)(Nullable(Of FluencyType), String)
-  fullName: Fluency.Execution.Functions.Value.Get<T>(System.Nullable<FluencyType>, System.String)
-  fullName.vb: Fluency.Execution.Functions.Value.Get(Of T)(System.Nullable(Of FluencyType), System.String)
+  fullName: Fluency.Execution.Functions.Value.Get<T>(System.Nullable<Fluency.Common.FluencyType>, System.String)
+  fullName.vb: Fluency.Execution.Functions.Value.Get(Of T)(System.Nullable(Of Fluency.Common.FluencyType), System.String)
   nameWithType: Value.Get<T>(Nullable<FluencyType>, String)
   nameWithType.vb: Value.Get(Of T)(Nullable(Of FluencyType), String)
 - uid: Fluency.Execution.Functions.Value.GetHashCode
@@ -2122,13 +2122,13 @@ references:
   commentId: T:Fluency.Execution.IFunctionResolver
   fullName: Fluency.Execution.IFunctionResolver
   nameWithType: IFunctionResolver
-- uid: Fluency.Execution.IFunctionResolver.Resolve(System.String,Value[])
+- uid: Fluency.Execution.IFunctionResolver.Resolve(System.String,Fluency.Execution.Functions.Value[])
   name: Resolve(String, Value[])
-  href: api/Fluency.Execution.IFunctionResolver.html#Fluency_Execution_IFunctionResolver_Resolve_System_String_Value___
-  commentId: M:Fluency.Execution.IFunctionResolver.Resolve(System.String,Value[])
+  href: api/Fluency.Execution.IFunctionResolver.html#Fluency_Execution_IFunctionResolver_Resolve_System_String_Fluency_Execution_Functions_Value___
+  commentId: M:Fluency.Execution.IFunctionResolver.Resolve(System.String,Fluency.Execution.Functions.Value[])
   name.vb: Resolve(String, Value())
-  fullName: Fluency.Execution.IFunctionResolver.Resolve(System.String, Value[])
-  fullName.vb: Fluency.Execution.IFunctionResolver.Resolve(System.String, Value())
+  fullName: Fluency.Execution.IFunctionResolver.Resolve(System.String, Fluency.Execution.Functions.Value[])
+  fullName.vb: Fluency.Execution.IFunctionResolver.Resolve(System.String, Fluency.Execution.Functions.Value())
   nameWithType: IFunctionResolver.Resolve(String, Value[])
   nameWithType.vb: IFunctionResolver.Resolve(String, Value())
 - uid: Fluency.Execution.IFunctionResolver.Resolve*
@@ -2144,11 +2144,11 @@ references:
   commentId: T:Fluency.Execution.Interpreter
   fullName: Fluency.Execution.Interpreter
   nameWithType: Interpreter
-- uid: Fluency.Execution.Interpreter.#ctor(Parser,System.Boolean)
+- uid: Fluency.Execution.Interpreter.#ctor(Fluency.Execution.Parsing.Parser,System.Boolean)
   name: Interpreter(Parser, Boolean)
-  href: api/Fluency.Execution.Interpreter.html#Fluency_Execution_Interpreter__ctor_Parser_System_Boolean_
-  commentId: M:Fluency.Execution.Interpreter.#ctor(Parser,System.Boolean)
-  fullName: Fluency.Execution.Interpreter.Interpreter(Parser, System.Boolean)
+  href: api/Fluency.Execution.Interpreter.html#Fluency_Execution_Interpreter__ctor_Fluency_Execution_Parsing_Parser_System_Boolean_
+  commentId: M:Fluency.Execution.Interpreter.#ctor(Fluency.Execution.Parsing.Parser,System.Boolean)
+  fullName: Fluency.Execution.Interpreter.Interpreter(Fluency.Execution.Parsing.Parser, System.Boolean)
   nameWithType: Interpreter.Interpreter(Parser, Boolean)
 - uid: Fluency.Execution.Interpreter.#ctor*
   name: Interpreter
@@ -2157,13 +2157,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Interpreter.Interpreter
   nameWithType: Interpreter.Interpreter
-- uid: Fluency.Execution.Interpreter.Execute(IEnumerable{System.String},GetNext)
+- uid: Fluency.Execution.Interpreter.Execute(System.Collections.Generic.IEnumerable{System.String},Fluency.Execution.Functions.GetNext)
   name: Execute(IEnumerable<String>, GetNext)
-  href: api/Fluency.Execution.Interpreter.html#Fluency_Execution_Interpreter_Execute_IEnumerable_System_String__GetNext_
-  commentId: M:Fluency.Execution.Interpreter.Execute(IEnumerable{System.String},GetNext)
+  href: api/Fluency.Execution.Interpreter.html#Fluency_Execution_Interpreter_Execute_System_Collections_Generic_IEnumerable_System_String__Fluency_Execution_Functions_GetNext_
+  commentId: M:Fluency.Execution.Interpreter.Execute(System.Collections.Generic.IEnumerable{System.String},Fluency.Execution.Functions.GetNext)
   name.vb: Execute(IEnumerable(Of String), GetNext)
-  fullName: Fluency.Execution.Interpreter.Execute(IEnumerable<System.String>, GetNext)
-  fullName.vb: Fluency.Execution.Interpreter.Execute(IEnumerable(Of System.String), GetNext)
+  fullName: Fluency.Execution.Interpreter.Execute(System.Collections.Generic.IEnumerable<System.String>, Fluency.Execution.Functions.GetNext)
+  fullName.vb: Fluency.Execution.Interpreter.Execute(System.Collections.Generic.IEnumerable(Of System.String), Fluency.Execution.Functions.GetNext)
   nameWithType: Interpreter.Execute(IEnumerable<String>, GetNext)
   nameWithType.vb: Interpreter.Execute(IEnumerable(Of String), GetNext)
 - uid: Fluency.Execution.Interpreter.Execute*
@@ -2596,13 +2596,13 @@ references:
   commentId: T:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
   fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph
   nameWithType: FunctionGraph
-- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(IEnumerable{IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})
+- uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})
   name: FunctionGraph(IEnumerable<IEnumerable<FunctionToken>>)
-  href: api/Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.html#Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_IEnumerable_IEnumerable_Fluency_Execution_Parsing_Entities_FunctionToken___
-  commentId: M:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(IEnumerable{IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})
+  href: api/Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.html#Fluency_Execution_Parsing_Entities_FunctionGraph_FunctionGraph__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_Fluency_Execution_Parsing_Entities_FunctionToken___
+  commentId: M:Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{Fluency.Execution.Parsing.Entities.FunctionToken}})
   name.vb: FunctionGraph(IEnumerable(Of IEnumerable(Of FunctionToken)))
-  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.FunctionGraph(IEnumerable<IEnumerable<Fluency.Execution.Parsing.Entities.FunctionToken>>)
-  fullName.vb: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.FunctionGraph(IEnumerable(Of IEnumerable(Of Fluency.Execution.Parsing.Entities.FunctionToken)))
+  fullName: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.FunctionGraph(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<Fluency.Execution.Parsing.Entities.FunctionToken>>)
+  fullName.vb: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.FunctionGraph(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of Fluency.Execution.Parsing.Entities.FunctionToken)))
   nameWithType: FunctionGraph.FunctionGraph(IEnumerable<IEnumerable<FunctionToken>>)
   nameWithType.vb: FunctionGraph.FunctionGraph(IEnumerable(Of IEnumerable(Of FunctionToken)))
 - uid: Fluency.Execution.Parsing.Entities.FunctionGraph.FunctionGraph.#ctor*
@@ -3055,15 +3055,15 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.Entities.Range.Equality
   nameWithType: Range.Equality
-- uid: Fluency.Execution.Parsing.Entities.Range.op_Implicit(ValueTuple{System.Int32,System.Int32})~Fluency.Execution.Parsing.Entities.Range
-  name: Implicit(ValueTuple<Int32, Int32> to Range)
-  href: api/Fluency.Execution.Parsing.Entities.Range.html#Fluency_Execution_Parsing_Entities_Range_op_Implicit_ValueTuple_System_Int32_System_Int32___Fluency_Execution_Parsing_Entities_Range
-  commentId: M:Fluency.Execution.Parsing.Entities.Range.op_Implicit(ValueTuple{System.Int32,System.Int32})~Fluency.Execution.Parsing.Entities.Range
-  name.vb: Widening(ValueTuple(Of Int32, Int32) to Range)
-  fullName: Fluency.Execution.Parsing.Entities.Range.Implicit(ValueTuple<System.Int32, System.Int32> to Fluency.Execution.Parsing.Entities.Range)
-  fullName.vb: Fluency.Execution.Parsing.Entities.Range.Widening(ValueTuple(Of System.Int32, System.Int32) to Fluency.Execution.Parsing.Entities.Range)
-  nameWithType: Range.Implicit(ValueTuple<Int32, Int32> to Range)
-  nameWithType.vb: Range.Widening(ValueTuple(Of Int32, Int32) to Range)
+- uid: Fluency.Execution.Parsing.Entities.Range.op_Implicit(System.ValueTuple{System.Int32,System.Int32})~Fluency.Execution.Parsing.Entities.Range
+  name: Implicit((Int32, Int32) to Range)
+  href: api/Fluency.Execution.Parsing.Entities.Range.html#Fluency_Execution_Parsing_Entities_Range_op_Implicit_System_ValueTuple_System_Int32_System_Int32___Fluency_Execution_Parsing_Entities_Range
+  commentId: M:Fluency.Execution.Parsing.Entities.Range.op_Implicit(System.ValueTuple{System.Int32,System.Int32})~Fluency.Execution.Parsing.Entities.Range
+  name.vb: Widening((Int32, Int32) to Range)
+  fullName: Fluency.Execution.Parsing.Entities.Range.Implicit(System.ValueTuple<System.Int32, System.Int32> to Fluency.Execution.Parsing.Entities.Range)
+  fullName.vb: Fluency.Execution.Parsing.Entities.Range.Widening(System.ValueTuple(Of System.Int32, System.Int32) to Fluency.Execution.Parsing.Entities.Range)
+  nameWithType: Range.Implicit((Int32, Int32) to Range)
+  nameWithType.vb: Range.Widening((Int32, Int32) to Range)
 - uid: Fluency.Execution.Parsing.Entities.Range.op_Implicit*
   name: Implicit
   href: api/Fluency.Execution.Parsing.Entities.Range.html#Fluency_Execution_Parsing_Entities_Range_op_Implicit_
@@ -3118,11 +3118,11 @@ references:
   commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String)
   fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String)
   nameWithType: ParseException.ParseException(String)
-- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,Exception)
+- uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Exception)
   name: ParseException(String, Exception)
-  href: api/Fluency.Execution.Parsing.Exceptions.ParseException.html#Fluency_Execution_Parsing_Exceptions_ParseException__ctor_System_String_Exception_
-  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,Exception)
-  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String, Exception)
+  href: api/Fluency.Execution.Parsing.Exceptions.ParseException.html#Fluency_Execution_Parsing_Exceptions_ParseException__ctor_System_String_System_Exception_
+  commentId: M:Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Exception)
+  fullName: Fluency.Execution.Parsing.Exceptions.ParseException.ParseException(System.String, System.Exception)
   nameWithType: ParseException.ParseException(String, Exception)
 - uid: Fluency.Execution.Parsing.Exceptions.ParseException.#ctor(System.String,System.Object[])
   name: ParseException(String, Object[])
@@ -3240,13 +3240,13 @@ references:
   fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource)
   nameWithType: Grouped<TSource>
   nameWithType.vb: Grouped(Of TSource)
-- uid: Fluency.Execution.Parsing.Grouped`1.#ctor(List{`0},System.Int32,System.Int32)
+- uid: Fluency.Execution.Parsing.Grouped`1.#ctor(System.Collections.Generic.List{`0},System.Int32,System.Int32)
   name: Grouped(List<TSource>, Int32, Int32)
-  href: api/Fluency.Execution.Parsing.Grouped-1.html#Fluency_Execution_Parsing_Grouped_1__ctor_List__0__System_Int32_System_Int32_
-  commentId: M:Fluency.Execution.Parsing.Grouped`1.#ctor(List{`0},System.Int32,System.Int32)
+  href: api/Fluency.Execution.Parsing.Grouped-1.html#Fluency_Execution_Parsing_Grouped_1__ctor_System_Collections_Generic_List__0__System_Int32_System_Int32_
+  commentId: M:Fluency.Execution.Parsing.Grouped`1.#ctor(System.Collections.Generic.List{`0},System.Int32,System.Int32)
   name.vb: Grouped(List(Of TSource), Int32, Int32)
-  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Grouped(List<TSource>, System.Int32, System.Int32)
-  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Grouped(List(Of TSource), System.Int32, System.Int32)
+  fullName: Fluency.Execution.Parsing.Grouped<TSource>.Grouped(System.Collections.Generic.List<TSource>, System.Int32, System.Int32)
+  fullName.vb: Fluency.Execution.Parsing.Grouped(Of TSource).Grouped(System.Collections.Generic.List(Of TSource), System.Int32, System.Int32)
   nameWithType: Grouped<TSource>.Grouped(List<TSource>, Int32, Int32)
   nameWithType.vb: Grouped(Of TSource).Grouped(List(Of TSource), Int32, Int32)
 - uid: Fluency.Execution.Parsing.Grouped`1.#ctor*
@@ -3362,13 +3362,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.ParseExtensions.GroupUntil
   nameWithType: ParseExtensions.GroupUntil
-- uid: Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Boolean)
   name: GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Boolean)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_GroupUntil__1_IEnumerable___0__Func___0_System_Boolean__System_Boolean_
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(IEnumerable{``0},Func{``0,System.Boolean},System.Boolean)
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_GroupUntil__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__System_Boolean_
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Boolean)
   name.vb: GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Boolean)
-  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, System.Boolean)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), System.Boolean)
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupUntil<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Boolean>, System.Boolean)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupUntil(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Boolean), System.Boolean)
   nameWithType: ParseExtensions.GroupUntil<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Boolean)
   nameWithType.vb: ParseExtensions.GroupUntil(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Boolean)
 - uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile*
@@ -3378,13 +3378,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.ParseExtensions.GroupWhile
   nameWithType: ParseExtensions.GroupWhile
-- uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+- uid: Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
   name: GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, Boolean, GroupWhileAction>)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_GroupWhile__1_IEnumerable___0__Func___0_System_Boolean_Fluency_Execution_Parsing_GroupWhileAction__
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(IEnumerable{``0},Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_GroupWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean_Fluency_Execution_Parsing_GroupWhileAction__
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.GroupWhile``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean,Fluency.Execution.Parsing.GroupWhileAction})
   name.vb: GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean, GroupWhileAction))
-  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction>)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction))
+  fullName: Fluency.Execution.Parsing.ParseExtensions.GroupWhile<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction>)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.GroupWhile(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Boolean, Fluency.Execution.Parsing.GroupWhileAction))
   nameWithType: ParseExtensions.GroupWhile<TSource>(IEnumerable<TSource>, Func<TSource, Boolean, GroupWhileAction>)
   nameWithType.vb: ParseExtensions.GroupWhile(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean, GroupWhileAction))
 - uid: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf*
@@ -3394,13 +3394,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf
   nameWithType: ParseExtensions.MergeLastIf
-- uid: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+- uid: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``0,``0})
   name: MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, TSource, TSource>)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_MergeLastIf__1_IEnumerable___0__Func___0_System_Boolean__Func___0___0___0__
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,``0,``0})
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_MergeLastIf__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__System_Func___0___0___0__
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.MergeLastIf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``0,``0})
   name.vb: MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, TSource, TSource))
-  fullName: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, Func<TSource, TSource, TSource>)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), Func(Of TSource, TSource, TSource))
+  fullName: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Boolean>, System.Func<TSource, TSource, TSource>)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.MergeLastIf(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Boolean), System.Func(Of TSource, TSource, TSource))
   nameWithType: ParseExtensions.MergeLastIf<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, TSource, TSource>)
   nameWithType.vb: ParseExtensions.MergeLastIf(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, TSource, TSource))
 - uid: Fluency.Execution.Parsing.ParseExtensions.SkipBetween*
@@ -3410,31 +3410,31 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.ParseExtensions.SkipBetween
   nameWithType: ParseExtensions.SkipBetween
-- uid: Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+- uid: Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
   name: SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, Boolean>)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_SkipBetween__1_IEnumerable___0__Func___0_System_Boolean__Func___0_System_Boolean__
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(IEnumerable{``0},Func{``0,System.Boolean},Func{``0,System.Boolean})
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_SkipBetween__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__System_Func___0_System_Boolean__
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.SkipBetween``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,System.Boolean})
   name.vb: SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, Boolean))
-  fullName: Fluency.Execution.Parsing.ParseExtensions.SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, System.Boolean>, Func<TSource, System.Boolean>)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, System.Boolean), Func(Of TSource, System.Boolean))
+  fullName: Fluency.Execution.Parsing.ParseExtensions.SkipBetween<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Boolean>, System.Func<TSource, System.Boolean>)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.SkipBetween(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Boolean), System.Func(Of TSource, System.Boolean))
   nameWithType: ParseExtensions.SkipBetween<TSource>(IEnumerable<TSource>, Func<TSource, Boolean>, Func<TSource, Boolean>)
   nameWithType.vb: ParseExtensions.SkipBetween(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Boolean), Func(Of TSource, Boolean))
-- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{Argument})
+- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable{Fluency.Execution.Parsing.Entities.Argument})
   name: Stringify(IEnumerable<Argument>)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_Stringify_IEnumerable_Argument__
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{Argument})
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_Stringify_System_Collections_Generic_IEnumerable_Fluency_Execution_Parsing_Entities_Argument__
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable{Fluency.Execution.Parsing.Entities.Argument})
   name.vb: Stringify(IEnumerable(Of Argument))
-  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable<Argument>)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable(Of Argument))
+  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable<Fluency.Execution.Parsing.Entities.Argument>)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable(Of Fluency.Execution.Parsing.Entities.Argument))
   nameWithType: ParseExtensions.Stringify(IEnumerable<Argument>)
   nameWithType.vb: ParseExtensions.Stringify(IEnumerable(Of Argument))
-- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{System.Char})
+- uid: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable{System.Char})
   name: Stringify(IEnumerable<Char>)
-  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_Stringify_IEnumerable_System_Char__
-  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable{System.Char})
+  href: api/Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_Stringify_System_Collections_Generic_IEnumerable_System_Char__
+  commentId: M:Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable{System.Char})
   name.vb: Stringify(IEnumerable(Of Char))
-  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable<System.Char>)
-  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(IEnumerable(Of System.Char))
+  fullName: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable<System.Char>)
+  fullName.vb: Fluency.Execution.Parsing.ParseExtensions.Stringify(System.Collections.Generic.IEnumerable(Of System.Char))
   nameWithType: ParseExtensions.Stringify(IEnumerable<Char>)
   nameWithType.vb: ParseExtensions.Stringify(IEnumerable(Of Char))
 - uid: Fluency.Execution.Parsing.ParseExtensions.Stringify*
@@ -3463,13 +3463,13 @@ references:
   isSpec: "True"
   fullName: Fluency.Execution.Parsing.Parser.Parser
   nameWithType: Parser.Parser
-- uid: Fluency.Execution.Parsing.Parser.Parse(IEnumerable{System.String})
+- uid: Fluency.Execution.Parsing.Parser.Parse(System.Collections.Generic.IEnumerable{System.String})
   name: Parse(IEnumerable<String>)
-  href: api/Fluency.Execution.Parsing.Parser.html#Fluency_Execution_Parsing_Parser_Parse_IEnumerable_System_String__
-  commentId: M:Fluency.Execution.Parsing.Parser.Parse(IEnumerable{System.String})
+  href: api/Fluency.Execution.Parsing.Parser.html#Fluency_Execution_Parsing_Parser_Parse_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Fluency.Execution.Parsing.Parser.Parse(System.Collections.Generic.IEnumerable{System.String})
   name.vb: Parse(IEnumerable(Of String))
-  fullName: Fluency.Execution.Parsing.Parser.Parse(IEnumerable<System.String>)
-  fullName.vb: Fluency.Execution.Parsing.Parser.Parse(IEnumerable(Of System.String))
+  fullName: Fluency.Execution.Parsing.Parser.Parse(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Fluency.Execution.Parsing.Parser.Parse(System.Collections.Generic.IEnumerable(Of System.String))
   nameWithType: Parser.Parse(IEnumerable<String>)
   nameWithType.vb: Parser.Parse(IEnumerable(Of String))
 - uid: Fluency.Execution.Parsing.Parser.Parse*
