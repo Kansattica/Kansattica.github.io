@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum GroupWhileAction
+    <title>Class GroupWhileAction
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum GroupWhileAction
+    <meta name="title" content="Class GroupWhileAction
    ">
     <meta name="generator" content="docfx 2.43.3.0">
     
@@ -71,49 +71,148 @@
             <article class="content wrap" id="_content" data-uid="Fluency.Execution.Parsing.GroupWhileAction">
   
   
-  <h1 id="Fluency_Execution_Parsing_GroupWhileAction" data-uid="Fluency.Execution.Parsing.GroupWhileAction" class="text-break">Enum GroupWhileAction
+  <h1 id="Fluency_Execution_Parsing_GroupWhileAction" data-uid="Fluency.Execution.Parsing.GroupWhileAction" class="text-break">Class GroupWhileAction
   </h1>
   <div class="markdown level0 summary"><p>Actions you can instruct <a class="xref" href="Fluency.Execution.Parsing.ParseExtensions.html#Fluency_Execution_Parsing_ParseExtensions_GroupWhile__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean_Fluency_Execution_Parsing_GroupWhileAction__">GroupWhile&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, Boolean, GroupWhileAction&gt;)</a> to take from its callback.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GroupWhileAction</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Fluency.Execution.Parsing.html">Fluency.Execution.Parsing</a></h6>
   <h6><strong>Assembly</strong>: Execution.dll</h6>
   <h5 id="Fluency_Execution_Parsing_GroupWhileAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum GroupWhileAction</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class GroupWhileAction : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="Fluency_Execution_Parsing_GroupWhileAction_In" data-uid="Fluency.Execution.Parsing.GroupWhileAction.In">In</h4>
+  <div class="markdown level1 summary"><p>Add the current item into the group, starting a new one if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const GroupWhileAction In</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Fluency_Execution_Parsing_GroupWhileAction_In">In</td>
-        <td><p>Add the current item into the group, starting a new one if necessary.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Fluency_Execution_Parsing_GroupWhileAction_LeaveExclude">LeaveExclude</td>
-        <td><p>Finish the current group and don't put this item in it.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Fluency_Execution_Parsing_GroupWhileAction_LeaveInclude">LeaveInclude</td>
-        <td><p>Finish the current group and put this item in it.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Fluency_Execution_Parsing_GroupWhileAction_StillOut">StillOut</td>
-        <td><p>We're not making a group, and this element should stay out of the group. Only return this if pickAction was passed false.</p>
-</td>
+        <td><a class="xref" href="Fluency.Execution.Parsing.GroupWhileAction.html">GroupWhileAction</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  
+  
+  <h4 id="Fluency_Execution_Parsing_GroupWhileAction_LeaveExclude" data-uid="Fluency.Execution.Parsing.GroupWhileAction.LeaveExclude">LeaveExclude</h4>
+  <div class="markdown level1 summary"><p>Finish the current group and don't put this item in it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const GroupWhileAction LeaveExclude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fluency.Execution.Parsing.GroupWhileAction.html">GroupWhileAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fluency_Execution_Parsing_GroupWhileAction_LeaveInclude" data-uid="Fluency.Execution.Parsing.GroupWhileAction.LeaveInclude">LeaveInclude</h4>
+  <div class="markdown level1 summary"><p>Finish the current group and put this item in it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const GroupWhileAction LeaveInclude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fluency.Execution.Parsing.GroupWhileAction.html">GroupWhileAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fluency_Execution_Parsing_GroupWhileAction_StillOut" data-uid="Fluency.Execution.Parsing.GroupWhileAction.StillOut">StillOut</h4>
+  <div class="markdown level1 summary"><p>We're not making a group, and this element should stay out of the group. Only return this if pickAction was passed false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const GroupWhileAction StillOut</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fluency.Execution.Parsing.GroupWhileAction.html">GroupWhileAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fluency_Execution_Parsing_GroupWhileAction_value__" data-uid="Fluency.Execution.Parsing.GroupWhileAction.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -121,12 +220,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Kansattica/Fluency/new/c50c8744e0a8b4028423c24892d0cd899140f90a/apiSpec/new?filename=Fluency_Execution_Parsing_GroupWhileAction.md&amp;value=---%0Auid%3A%20Fluency.Execution.Parsing.GroupWhileAction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Kansattica/Fluency/blob/c50c8744e0a8b4028423c24892d0cd899140f90a/Execution/Parsing/ParseExtensions.cs/#L241" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
