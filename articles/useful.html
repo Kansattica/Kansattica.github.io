@@ -117,7 +117,7 @@ Unhandled Exception: System.FormatException: Input string was not in a correct f
 <pre><code class="lang-text">Unhandled Exception: Fluency.Execution.Exceptions.ExecutionException: Tried to use function Com as a IBottomIn, which it isn't. ---&gt; System.InvalidCastException: Unable to cast object of type 'Fluency.Execution.Functions.BuiltIn.Com' to type 'Fluency.Execution.Functions.IBottomIn'.
 (... other stuff)
 </code></pre>
-<p>Which is just telling you that &quot;Com doesn't read input from its bottom pipeline, and so you shouldn't be connecting to it.&quot; If you want to know which pipelines a built in function reads from, click its name on the list of <a href="@Fluency.Execution.Functions.BuiltIn">builtin functions</a>. For example, <a href="@Fluency.Execution.Functions.BuiltIn.Dup">Dup()</a> is an ITopIn, ITopOut, and IBottomOut, which means it reads from the top input and writes to both the top output and bottom output. Don't worry too much about the rest, though you will see that <code>Dup()</code> has an alias, <code>Duplicate()</code>, that does the same thing.</p>
+<p>Which is just telling you that &quot;Com doesn't read input from its bottom pipeline, and so you shouldn't be connecting to it.&quot; If you want to know which pipelines a built in function reads from, click its name on the list of <a href="../api/Fluency.Execution.Functions.BuiltIn">builtin functions</a>. For example, <a href="../api/Fluency.Execution.Functions.BuiltIn.Dup">Dup()</a> is an ITopIn, ITopOut, and IBottomOut, which means it reads from the top input and writes to both the top output and bottom output. Don't worry too much about the rest, though you will see that <code>Dup()</code> has an alias, <code>Duplicate()</code>, that does the same thing.</p>
 <p>You'll see <code>Dup()</code> a lot, because a common pattern in Fluency is:</p>
 <ul>
 <li>Copy the number</li>
@@ -135,7 +135,7 @@ And you would be correct! A more succinct way to write this program would be:</p
 <p>Notice that you still need something along the bottom to connect <code>Dup()</code> to <code>Add()</code>. Otherwise, with no argument, <code>Add()</code> will try to read from its lower pipeline and not be happy.</p>
 <p>Can we do even better?</p>
 <p>You probably know that when someone teaching you something asks that, they mean yes.</p>
-<p>If you've seen the list of <a href="@Fluency.Execution.Functions.BuiltIn">builtin functions</a>, you might know that there's also a <code>Mult()</code> function that does multiplication, and this program could also be written as:</p>
+<p>If you've seen the list of <a href="../api/Fluency.Execution.Functions.BuiltIn">builtin functions</a>, you might know that there's also a <code>Mult()</code> function that does multiplication, and this program could also be written as:</p>
 <pre><code class="lang-cs">Def(Main).ParseInt().Mult(2)
 </code></pre>
 <p>Which works just as well (and is even a touch faster), but I wrote this program before adding <code>.Mult()</code> to the language, and you had to learn about the bottom pipeline one way or another.</p>
@@ -148,7 +148,7 @@ And you would be correct! A more succinct way to write this program would be:</p
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Kansattica/Fluency/blob/fdf730448c98aee62f2be102a76eb312cae6c328/Documentation/articles/useful.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Kansattica/Fluency/blob/6d0805fe6729310f1894342274a8adf993627a62/Documentation/articles/useful.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
